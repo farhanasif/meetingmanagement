@@ -36,4 +36,4 @@ Route::get('/eqiupment/list','EquipmentController@allEquipment')->name('eqiupmen
 
 //physical location
 Route::get('/create/physical/location','physicalLocationController@index')->name('physical.location');
-Route::get('/eqiupment/list','physicalLocationController@allPhyLocation')->name('eqiupment.datatable');
+Route::get('/physical/list','physicalLocationController@allPhyLocation')->name('physical.datatable');

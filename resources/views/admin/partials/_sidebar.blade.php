@@ -53,12 +53,12 @@
                   <p>Meeting schudules</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Meeting Room Search</p>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </li>
 
@@ -102,7 +102,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('eqiupment.datatable')}}" class="nav-link">
+                <a href="{{route('physical.datatable')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>All physical locations</p>
                 </a>
@@ -158,7 +158,7 @@
             </ul>
           </li>
 
-          <li class="nav-item has-treeview">
+          <!-- <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
             <i class="nav-icon fas fa-list-alt text-warning"></i>
               <p>
@@ -180,7 +180,7 @@
                 </a>
               </li>
             </ul>
-          </li>
+          </li> -->
 
           <!-- <li class="nav-item has-treeview">
             <a href="#" class="nav-link">

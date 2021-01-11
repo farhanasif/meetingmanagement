@@ -61,11 +61,11 @@
                     <td>Shahin Islam</td>
                     <td>islam@gmail.com</td>
                     <td><button class="btn btn-warning btn-xs">Administrator</button></td>
-                    <td>Staff</td>
-                    <td>Radiant bd</td>
-                    <td>+0014334</td>
-                    <td>+0014334</td>
-                    <td>Dhaka, 123</td>
+                    <td>Office of the State Minister</td>
+                    <td>National Sports Association</td>
+                    <td>+001575638</td>
+                    <td>+00143345</td>
+                    <td>Gazipur, 123</td>
                     <td>
                         <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
                         <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
@@ -73,13 +73,13 @@
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">2</td>
-                    <td>Shahin Islam</td>
-                    <td>islam@gmail.com</td>
-                    <td><button class="btn btn-success btn-xs">Administrator</button></td>
-                    <td>Staff</td>
-                    <td>Radiant bd</td>
-                    <td>+0014334</td>
-                    <td>+0014334</td>
+                    <td>Arif Khan</td>
+                    <td>arif@gmail.com</td>
+                    <td><button class="btn btn-success btn-xs">Mediator</button></td>
+                    <td>Office of the Secretary</td>
+                    <td>Sonali Bank ltd</td>
+                    <td>+00155664</td>
+                    <td>+001t565</td>
                     <td>Dhaka, 123</td>
                     <td>
                         <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
@@ -88,14 +88,14 @@
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">3</td>
-                    <td>Khan Islam</td>
-                    <td>khan@gmail.com</td>
-                    <td><button class="btn btn-success btn-xs">Administrator</button></td>
-                    <td>Staff</td>
-                    <td>Radiant bd</td>
+                    <td>Raziul Haque</td>
+                    <td>raziul@gmail.com</td>
+                    <td><button class="btn btn-success btn-xs">User</button></td>
+                    <td>Admin</td>
+                    <td>Arthopedic Ltd</td>
+                    <td>+0014354</td>
                     <td>+0014334</td>
-                    <td>+0014334</td>
-                    <td>Dhaka, 123</td>
+                    <td>Mohakhali, 123</td>
                     <td>
                         <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
                         <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>

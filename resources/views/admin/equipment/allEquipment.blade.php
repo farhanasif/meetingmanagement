@@ -55,35 +55,35 @@
                   <tbody>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">1</td>
-                    <td>Arif Islam</td>
+                    <td>Computer</td>
                     <td>Yes</td>
                     <td>Dhanmondi</td>
-                    <td>e343</td>
-                    <td>This equipment is good</td>
+                    <td>Eo1223</td>
+                    <td>This equipment is good enough</td>
                     <td>
                         <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
                         <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
                     </td>
                   </tr>
                   <tr role="row" class="odd">
-                    <td class="dtr-control sorting_1">1</td>
-                    <td>Zaman Islam</td>
+                    <td class="dtr-control sorting_1">2</td>
+                    <td>Printer</td>
                     <td>Yes</td>
                     <td>Uttra</td>
-                    <td>e343</td>
-                    <td>This equipment is good</td>
+                    <td>E00343</td>
+                    <td>This Printer is well known</td>
                     <td>
                         <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
                         <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
                     </td>
                   </tr>
                   <tr role="row" class="odd">
-                    <td class="dtr-control sorting_1">1</td>
-                    <td>Arif Islam</td>
+                    <td class="dtr-control sorting_1">3</td>
+                    <td>Hardware</td>
                     <td>Yes</td>
-                    <td>Dhanmondi</td>
-                    <td>e343</td>
-                    <td>This equipment is good</td>
+                    <td>Mohakhali</td>
+                    <td>Ed3443</td>
+                    <td>Hardware must be needed</td>
                     <td>
                         <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
                         <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>

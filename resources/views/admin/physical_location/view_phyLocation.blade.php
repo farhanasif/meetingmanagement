@@ -57,7 +57,7 @@
                     <td>Unnamed</td>
                     <td>Dhanmondi 32</td>
                     <td>Middle City</td>
-                    <td>Won't equipment</td>
+                    <td>Printer</td>
                     <td>
                         <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
                         <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
@@ -66,9 +66,9 @@
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">1</td>
                     <td>Unnamed</td>
-                    <td>Dhanmondi 32</td>
+                    <td>asadgate</td>
                     <td>Middle City</td>
-                    <td>Won't equipment</td>
+                    <td>Computer</td>
                     <td>
                         <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
                         <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
@@ -77,9 +77,20 @@
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">1</td>
                     <td>Unnamed</td>
-                    <td>Dhanmondi 32</td>
-                    <td>Middle City</td>
-                    <td>Won't equipment</td>
+                    <td>Mohakhali</td>
+                    <td>east City</td>
+                    <td>Server</td>
+                    <td>
+                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
+                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                    </td>
+                  </tr>
+                  <tr role="row" class="odd">
+                    <td class="dtr-control sorting_1">1</td>
+                    <td>Same</td>
+                    <td>Mohammodpur</td>
+                    <td>wuest City</td>
+                    <td>Scaner</td>
                     <td>
                         <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
                         <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
