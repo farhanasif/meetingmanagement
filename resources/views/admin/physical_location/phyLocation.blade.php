@@ -54,7 +54,7 @@
                             <label>Location</label>
                             <select class="form-control">
                             <option value="">--Select Location--</option>
-                            <option>Dhaka</option>
+                            <option>Mohammodpur</option>
                             <option>Dhanmondi</option>
                             <option>Mohakhli</option>
                             <option>Uttra</option>

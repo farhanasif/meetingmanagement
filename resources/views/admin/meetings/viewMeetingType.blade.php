@@ -60,8 +60,8 @@
                     </td>
                   </tr>
                   <tr role="row" class="odd">
-                    <td class="dtr-control sorting_1">1</td>
-                    <td>Employee Meeting Discussion</td>
+                    <td class="dtr-control sorting_1">2</td>
+                    <td>General Meeting Discussion</td>
                     <td><button class="btn btn-warning btn-xs">Virtual Meeting</button></td>
                     <td>
                         <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
@@ -69,8 +69,8 @@
                     </td>
                   </tr>
                   <tr role="row" class="odd">
-                    <td class="dtr-control sorting_1">1</td>
-                    <td>Employee Meeting Discussion</td>
+                    <td class="dtr-control sorting_1">3</td>
+                    <td>Yearly Meeting Discussion</td>
                     <td><button class="btn btn-success btn-xs">Physical Meeting</button></td>
                     <td>
                         <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>

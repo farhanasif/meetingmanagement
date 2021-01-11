@@ -23,6 +23,7 @@ Route::get('/dashboard','HomeController@index')->name('dashboard');
 Route::get('/create/meeting','MeetingController@createMeeting')->name('create.meeting');
 Route::get('/view/meeting','MeetingController@viewMeetingType')->name('meeting.type');
 Route::get('/my/meetings','MeetingController@myMeeting')->name('meeting.datatable');
+Route::get('/meeting/details','MeetingController@meetingDetails')->name('meeting.details');
 Route::get('/meeting/schudule','MeetingController@schudules')->name('meeting.schudule');
 
 //user add
@@ -36,4 +37,4 @@ Route::get('/eqiupment/list','EquipmentController@allEquipment')->name('eqiupmen
 
 //physical location
 Route::get('/create/physical/location','physicalLocationController@index')->name('physical.location');
-Route::get('/eqiupment/list','physicalLocationController@allPhyLocation')->name('eqiupment.datatable');
+Route::get('/physical/list','physicalLocationController@allPhyLocation')->name('physical.datatable');

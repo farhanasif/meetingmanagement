@@ -75,9 +75,10 @@
                             <label>Designation</label>
                             <select class="form-control">
                             <option value="">--Select Designation--</option>
-                            <option>Software Engineer</option>
-                            <option>Employee</option>
-                            <option>Staff</option>
+                            <option>Office of the State Minister</option>
+                            <option>Office of the Secretary</option>
+                            <option>Admin</option>
+                            <option>Coordination</option>
                             </select>
                         </div>
                     </div>
