@@ -67,10 +67,10 @@
 
       <div class="social-auth-links text-center mb-3">
         <p>- OR -</p>
-        <a href="#" class="btn btn-block btn-primary">
+        <a id="adminId" href="#" class="btn btn-block btn-primary">
           <i class="fab fa-men mr-2"></i> Login As Admin
         </a>
-        <a href="#" class="btn btn-block btn-danger">
+        <a id="userId" href="#" class="btn btn-block btn-danger">
           <i class="fab fa--plus mr-2"></i> Login As User
         </a>
       </div>

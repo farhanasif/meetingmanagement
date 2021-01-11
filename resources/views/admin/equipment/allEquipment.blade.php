@@ -57,7 +57,7 @@
                     <td class="dtr-control sorting_1">1</td>
                     <td>Computer</td>
                     <td>Yes</td>
-                    <td>Dhanmondi</td>
+                    <td>Motijhil</td>
                     <td>Eo1223</td>
                     <td>This equipment is good enough</td>
                     <td>
