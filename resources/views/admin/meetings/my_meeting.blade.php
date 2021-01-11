@@ -54,7 +54,7 @@
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1" tabindex="0">1</td>
                     <td class="dtr-control sorting_1" tabindex="0">10-01-2021</td>
-                    <td>11:30 pm - 1:30 1m</td>
+                    <td>11:30 pm - 1:30 pm</td>
                     <td>Staff Meeting</td>
                     <td>
                     <a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">More Details</a>&nbsp;&nbsp;<button class="btn btn-success btn-xs">Confirmed</button></td>
