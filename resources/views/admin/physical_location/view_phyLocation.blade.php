@@ -1,5 +1,5 @@
 @extends('admin.master')
-@section('title', 'My Meeting')
+@section('title', 'All Physical Location')
 
 @section('stylesheet')
 
@@ -11,12 +11,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">My meeting</h1>
+            <h1 class="m-0 text-dark">View All Physical Location</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Dashboard of meeting</li>
+              <li class="breadcrumb-item active">Dashboard Of Physical Location</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -36,56 +36,54 @@
 
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">All Mettings view Point</h3>
+                <h3 class="card-title">View All Physical Location</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
                 <div id="example1_wrapper" class="dataTables_wrapper dt-bootstrap4"><div class="row"><div class="col-sm-12 col-md-6"><div class="dt-buttons btn-group flex-wrap">               <button class="btn btn-secondary buttons-copy buttons-html5" tabindex="0" aria-controls="example1" type="button"><span>Copy</span></button> <button class="btn btn-secondary buttons-csv buttons-html5" tabindex="0" aria-controls="example1" type="button"><span>CSV</span></button> <button class="btn btn-secondary buttons-excel buttons-html5" tabindex="0" aria-controls="example1" type="button"><span>Excel</span></button> <button class="btn btn-secondary buttons-pdf buttons-html5" tabindex="0" aria-controls="example1" type="button"><span>PDF</span></button> <button class="btn btn-secondary buttons-print" tabindex="0" aria-controls="example1" type="button"><span>Print</span></button> <div class="btn-group"><button class="btn btn-secondary buttons-collection dropdown-toggle buttons-colvis" tabindex="0" aria-controls="example1" type="button" aria-haspopup="true" aria-expanded="false"><span>Column visibility</span></button></div> </div></div><div class="col-sm-12 col-md-6"><div id="example1_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="example1"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="example1" class="table table-bordered table-striped dataTable dtr-inline" role="grid" aria-describedby="example1_info">
                   <thead>
                   <tr role="row">
-                  <th class="sorting_asc" aria-controls="example1">Serial</th>
-                    <th class="sorting_asc" aria-controls="example1">Date</th>
-                    <th class="sorting">Time Duration</th>
-                    <th class="sorting">Name</th>
-                    <th class="sorting">Action</th>
+                    <th class="sorting" aria-controls="example1">Serial No</th>
+                    <th class="sorting" aria-controls="example1">Name</th>
+                    <th class="sorting" aria-controls="example1">Location</th>
+                    <th class="sorting_asc" aria-controls="example1">Location Type</th>
+                    <th class="sorting_asc" aria-controls="example1">Equipment</th>
+                    <th class="sorting" aria-controls="example1">Action</th>
                   </tr>
                   </thead>
                   <tbody>
                   <tr role="row" class="odd">
-                    <td class="dtr-control sorting_1" tabindex="0">1</td>
-                    <td class="dtr-control sorting_1" tabindex="0">10-01-2021</td>
-                    <td>4:30 pm - 5:30 pm</td>
-                    <td>Staff Meeting</td>
+                    <td class="dtr-control sorting_1">1</td>
+                    <td>Unnamed</td>
+                    <td>Dhanmondi 32</td>
+                    <td>Middle City</td>
+                    <td>Won't equipment</td>
                     <td>
-                    <a href="#" class="btn btn-info btn-xs">More Details</a>&nbsp;&nbsp;<button class="btn btn-success btn-xs">Confirmation</button></td>
+                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
+                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                    </td>
                   </tr>
                   <tr role="row" class="odd">
-                  <td class="dtr-control sorting_1" tabindex="0">2</td>
-                    <td class="dtr-control sorting_1" tabindex="0">10-01-2021</td>
-                    <td>4:30 pm - 5:30 pm</td>
-                    <td>Staff Meeting</td>
-                    <td><a href="#" class="btn btn-info btn-xs">More Details</a>&nbsp;&nbsp;<button class="btn btn-danger btn-xs">Confirmation</button></td>
+                    <td class="dtr-control sorting_1">1</td>
+                    <td>Unnamed</td>
+                    <td>Dhanmondi 32</td>
+                    <td>Middle City</td>
+                    <td>Won't equipment</td>
+                    <td>
+                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
+                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                    </td>
                   </tr>
                   <tr role="row" class="odd">
-                  <td class="dtr-control sorting_1" tabindex="0">3</td>
-                    <td class="dtr-control sorting_1" tabindex="0">10-01-2021</td>
-                    <td>4:30 pm - 5:30 pm</td>
-                    <td>Staff Meeting</td>
-                    <td><a href="#" class="btn btn-info btn-xs">More Details</a>&nbsp;&nbsp;<button class="btn btn-success btn-xs">Confirmation</button></td>
-                  </tr>
-                  <tr role="row" class="odd">
-                  <td class="dtr-control sorting_1" tabindex="0">4</td>
-                    <td class="dtr-control sorting_1" tabindex="0">10-01-2021</td>
-                    <td>4:30 pm - 5:30 pm</td>
-                    <td>Staff Meeting</td>
-                    <td><a href="#" class="btn btn-info btn-xs">More Details</a>&nbsp;&nbsp;<button class="btn btn-success btn-xs">Confirmation</button></td>
-                  </tr>
-                  <tr role="row" class="odd">
-                  <td class="dtr-control sorting_1" tabindex="0">5</td>
-                    <td class="dtr-control sorting_1" tabindex="0">10-01-2021</td>
-                    <td>4:30 pm - 5:30 pm</td>
-                    <td>Staff Meeting</td>
-                    <td><a href="#" class="btn btn-info btn-xs">More Details</a>&nbsp;&nbsp;<button class="btn btn-danger btn-xs">Confirmation</button></td>
+                    <td class="dtr-control sorting_1">1</td>
+                    <td>Unnamed</td>
+                    <td>Dhanmondi 32</td>
+                    <td>Middle City</td>
+                    <td>Won't equipment</td>
+                    <td>
+                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
+                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                    </td>
                   </tr>
                   </tbody>
                  
@@ -107,7 +105,7 @@
 @section('script')
 <script>
   $(function () {
-    $("#example2").DataTable();
+    $("#example1").DataTable();
    
       "paging": true,
       "lengthChange": false,

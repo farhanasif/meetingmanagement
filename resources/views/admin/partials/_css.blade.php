@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="{{asset('admin/css/plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
   <!-- JQVMap -->
   <link rel="stylesheet" href="{{asset('admin/css/plugins/jqvmap/jqvmap.min.css')}}">
+  <!-- Select2 -->
+  <link rel="stylesheet" href="{{asset('admin/css/plugins/select2/css/select2.min.css')}}">
+  <link rel="stylesheet" href="{{asset('admin/css/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css')}}">
   <!-- DataTables -->
   <link rel="stylesheet" href="{{asset('admin/css/plugins/datatables-bs4/css/dataTables.bootstrap4.css')}}">
   <!-- Theme style -->
@@ -22,4 +25,11 @@
   <link rel="stylesheet" href="{{asset('admin/css/plugins/summernote/summernote-bs4.css')}}">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+   <!-- fullCalendar -->
+   <link rel="stylesheet" href="{{asset('admin/css/plugins/fullcalendar/main.min.css')}}">
+  <link rel="stylesheet" href="{{asset('admin/css/plugins/fullcalendar-daygrid/main.min.css')}}">
+  <link rel="stylesheet" href="{{asset('admin/css/plugins/fullcalendar-timegrid/main.min.css')}}">
+  <link rel="stylesheet" href="{{asset('admin/css/plugins/fullcalendar-bootstrap/main.min.css')}}">
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="{{asset('admin/css/plugins/fontawesome-free/css/all.min.css')}}">
   @yield('stylesheet')

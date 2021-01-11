@@ -7,6 +7,8 @@
 </script>
 <!-- Bootstrap 4 -->
 <script src="{{asset('admin/js/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<!-- Select2 -->
+<script src="{{asset('admin/js/plugins/select2/js/select2.full.min.js')}}"></script>
 <!-- DataTables -->
 <script src="{{asset('admin/js/plugins/datatables/jquery.dataTables.js')}}"></script>
 <script src="{{asset('admin/js/plugins/datatables-bs4/js/dataTables.bootstrap4.js')}}"></script>
@@ -34,4 +36,11 @@
 <script src="{{asset('admin/js/dist/js/pages/dashboard.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{asset('admin/js/dist/js/demo.js')}}"></script>
+<!-- fullCalendar 2.2.5 -->
+<script src="{{asset('admin/js/plugins/moment/moment.min.js')}}"></script>
+<script src="{{asset('admin/js/plugins/fullcalendar/main.min.js')}}"></script>
+<script src="{{asset('admin/js/plugins/fullcalendar-daygrid/main.min.js')}}"></script>
+<script src="{{asset('admin/js/plugins/fullcalendar-timegrid/main.min.js')}}"></script>
+<script src="{{asset('admin/js/plugins/fullcalendar-interaction/main.min.js')}}"></script>
+<script src="{{asset('admin/js/plugins/fullcalendar-bootstrap/main.min.js')}}"></script>
 @yield('script')
