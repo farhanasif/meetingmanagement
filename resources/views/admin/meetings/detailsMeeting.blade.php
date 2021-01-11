@@ -47,7 +47,7 @@
               <div class="row">
                 <!-- accepted payments column -->
                 <!-- /.col -->
-                <p>In this meeting, we will be discussed about the office purposes. So, guys you must to come in the office. Duration time: 11:30 pm - 1:30 1m</p><br>
+                <p>In this meeting, we will be discussed about the office purposes. So, guys you must to come in the office. Duration time: 11:30 pm - 1:30 pm</p><br>
                 <!-- /.col -->
               </div>
               <!-- /.row -->
