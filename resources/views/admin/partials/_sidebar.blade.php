@@ -34,7 +34,7 @@
           
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-th"></i>
+            <i class="nav-icon fas fa-user-graduate text-red"></i>
               <p>
                  My Meetings
                 <i class="fas fa-angle-left right"></i>
@@ -64,7 +64,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tree"></i>
+            <i class="nav-icon fas fa-credit-card text-blue"></i>
               <p>
                  Meetings
                 <i class="fas fa-angle-left right"></i>
@@ -112,7 +112,7 @@
          
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon far fa-plus-square"></i>
+            <i class="nav-icon fas fa-user-tie text-blue"></i>
               <p>
                 All Users
                 <i class="fas fa-angle-left right"></i>
@@ -136,7 +136,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon far fa-plus-square"></i>
+            <i class="nav-icon fas fa-credit-card text-orange"></i>
               <p>
                 All Equipment
                 <i class="fas fa-angle-left right"></i>
@@ -160,7 +160,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tree"></i>
+            <i class="nav-icon fas fa-list-alt text-warning"></i>
               <p>
                  My invitations
                 <i class="fas fa-angle-left right"></i>
@@ -182,7 +182,7 @@
             </ul>
           </li>
 
-          <li class="nav-item has-treeview">
+          <!-- <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tree"></i>
               <p>
@@ -204,7 +204,7 @@
                 </a>
               </li>
             </ul>
-          </li>
+          </li> -->
           
         </ul>
       </nav>
