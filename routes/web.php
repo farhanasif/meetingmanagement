@@ -23,6 +23,7 @@ Route::get('/dashboard','HomeController@index')->name('dashboard');
 Route::get('/create/meeting','MeetingController@createMeeting')->name('create.meeting');
 Route::get('/view/meeting','MeetingController@viewMeetingType')->name('meeting.type');
 Route::get('/my/meetings','MeetingController@myMeeting')->name('meeting.datatable');
+Route::get('/meeting/details','MeetingController@meetingDetails')->name('meeting.details');
 Route::get('/meeting/schudule','MeetingController@schudules')->name('meeting.schudule');
 
 //user add
