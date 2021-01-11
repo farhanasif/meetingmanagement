@@ -47,12 +47,12 @@
                   <p>Meeting</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a href="{{route('meeting.schudule')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Meeting schudules</p>
                 </a>
-              </li>
+              </li> -->
               <!-- <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>

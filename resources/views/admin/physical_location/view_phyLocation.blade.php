@@ -54,7 +54,7 @@
                   <tbody>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">1</td>
-                    <td>Sample Meeting Discussion</td>
+                    <td>Office of the State Minister</td>
                     <td>Motijhil</td>
                     <td>Middle City</td>
                     <td>Printer, IT Support, Scaner </td>
@@ -65,7 +65,7 @@
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">1</td>
-                    <td>General Meeting Discussion</td>
+                    <td>Office of the Secretary</td>
                     <td>asadgate</td>
                     <td>Middle City</td>
                     <td>Computer, Scaner, Router</td>
@@ -76,7 +76,7 @@
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">1</td>
-                    <td> Meeting Discussion</td>
+                    <td> Coordination</td>
                     <td>Mohakhali</td>
                     <td>east City</td>
                     <td>Server, It support</td>
@@ -87,7 +87,7 @@
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">1</td>
-                    <td>Same</td>
+                    <td>Sports-1</td>
                     <td>Mohammodpur</td>
                     <td>wuest City</td>
                     <td>Scaner, Computer Hardware</td>
