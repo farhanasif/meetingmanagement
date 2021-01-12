@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class EquipmentController extends Controller
 {
-    public function index(){
+    public function equipmentIndex(){
         return view('admin.equipment.add_equipment');
     }
 

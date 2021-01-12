@@ -1,5 +1,5 @@
 @extends('user.master')
-@section('title', 'All User')
+@section('title', 'All Physical Location')
 
 @section('stylesheet')
 
@@ -11,12 +11,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">All Users List</h1>
+            <h1 class="m-0 text-dark">All Physical Location List</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Dashboard Of All Userr</li>
+              <li class="breadcrumb-item active">Dashboard Of All Physical Location</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -36,7 +36,7 @@
 
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">All Users List</h3>
+                <h3 class="card-title">All Physical Location List</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -45,59 +45,43 @@
                   <tr role="row">
                     <th class="sorting" aria-controls="example1">Serial No</th>
                     <th class="sorting" aria-controls="example1">Name</th>
-                    <th class="sorting_asc" aria-controls="example1">Email</th>
-                    <th class="sorting" aria-controls="example1">Role</th>
-                    <th class="sorting" aria-controls="example1">Designation</th>
-                    <th class="sorting" aria-controls="example1">Organisation</th>
-                    <th class="sorting" aria-controls="example1">Cellular phone</th>
-                    <th class="sorting" aria-controls="example1">Other phone</th>
-                    <th class="sorting" aria-controls="example1">Address</th>
+                    <th class="sorting" aria-controls="example1">Location</th>
+                    <th class="sorting" aria-controls="example1">Location Type</th>
+                    <th class="sorting" aria-controls="example1">Equipment</th>
                     <th class="sorting" aria-controls="example1">Action</th>
                   </tr>
                   </thead>
                   <tbody>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">1</td>
-                    <td>Shahin Islam</td>
-                    <td>islam@gmail.com</td>
-                    <td><button class="btn btn-warning btn-xs">Administrator</button></td>
-                    <td>Executive Officer</td>
-                    <td>National Sports Association</td>
-                    <td>+001575638</td>
-                    <td>+00143345</td>
-                    <td>Motijhil, 123</td>
+                    <td>Office of the State Minister</td>
+                    <td>Motijhil</td>
+                    <td>Middle City</td>
+                    <td>Printer, IT Support, Scaner</td>
                     <td>
-                        <a href="{{route('user.profile')}}"  title="Edit"><i class="far fa-edit"></i></a>
+                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
                         <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
                     </td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">2</td>
-                    <td>Arif Khan</td>
-                    <td>arif@gmail.com</td>
-                    <td><button class="btn btn-success btn-xs">Mediator</button></td>
-                    <td>General Manager</td>
-                    <td>World Health Organization</td>
-                    <td>+00155664</td>
-                    <td>+001t565</td>
-                    <td>Dhaka, 123</td>
+                    <td>Sports 1</td>
+                    <td>Motijhil</td>
+                    <td>Middle City</td>
+                    <td>IT Support, Scaner, Desktop</td>
                     <td>
-                        <a href="{{route('user.profile')}}" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
+                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
                         <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
                     </td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">3</td>
-                    <td>Raziul Haque</td>
-                    <td>raziul@gmail.com</td>
-                    <td><button class="btn btn-success btn-xs">User</button></td>
-                    <td>Additional Manager</td>
-                    <td>Bangladesh Swwiming Ferdaration</td>
-                    <td>+0014354</td>
-                    <td>+0014334</td>
-                    <td>Mohakhali, 123</td>
+                    <td>Office of the State Minister</td>
+                    <td>Dhanmondi</td>
+                    <td>Middle City</td>
+                    <td>Printer, IT Support, Scaner</td>
                     <td>
-                        <a href="{{route('user.profile')}}" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
+                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
                         <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
                     </td>
                   </tr>

@@ -70,9 +70,9 @@
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
-            <ul class="nav nav-treeview" style="display: none;">
+            <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{route('create.meeting')}}" class="nav-link">
+                <a href="{{route('show.form')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Create Meeting</p>
                 </a>
@@ -142,15 +142,15 @@
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
-            <ul class="nav nav-treeview" style="display: none;">
+            <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{route('eqiupment')}}" class="nav-link">
+                <a href="{{route('equipmentForm')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add Equipment</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('eqiupment.datatable')}}" class="nav-link">
+                <a href="{{url('eqiupment/list')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>All Equipment</p>
                 </a>

@@ -1,5 +1,5 @@
 @extends('user.master')
-@section('title', 'All User')
+@section('title', 'View All Pending Meeting')
 
 @section('stylesheet')
 
@@ -11,12 +11,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">All Users List</h1>
+            <h1 class="m-0 text-dark">View All Pending Meeting</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Dashboard Of All Userr</li>
+              <li class="breadcrumb-item active">Dashboard Of View Pending Meeting</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -36,7 +36,7 @@
 
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">All Users List</h3>
+                <h3 class="card-title">View All Pending Meeting</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -44,61 +44,50 @@
                   <thead>
                   <tr role="row">
                     <th class="sorting" aria-controls="example1">Serial No</th>
-                    <th class="sorting" aria-controls="example1">Name</th>
-                    <th class="sorting_asc" aria-controls="example1">Email</th>
-                    <th class="sorting" aria-controls="example1">Role</th>
-                    <th class="sorting" aria-controls="example1">Designation</th>
-                    <th class="sorting" aria-controls="example1">Organisation</th>
-                    <th class="sorting" aria-controls="example1">Cellular phone</th>
-                    <th class="sorting" aria-controls="example1">Other phone</th>
-                    <th class="sorting" aria-controls="example1">Address</th>
+                    <th class="sorting" aria-controls="example1">Company Name</th>
+                    <th class="sorting" aria-controls="example1">Employee Name</th>
+                    <th class="sorting" aria-controls="example1">Meeting Title</th>
+                    <th class="sorting" aria-controls="example1">Date</th>
+                    <th class="sorting_asc" aria-controls="example1">Time</th>
+                    <th class="sorting" aria-controls="example1">Meeting Room</th>
                     <th class="sorting" aria-controls="example1">Action</th>
                   </tr>
                   </thead>
                   <tbody>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">1</td>
-                    <td>Shahin Islam</td>
-                    <td>islam@gmail.com</td>
-                    <td><button class="btn btn-warning btn-xs">Administrator</button></td>
-                    <td>Executive Officer</td>
-                    <td>National Sports Association</td>
-                    <td>+001575638</td>
-                    <td>+00143345</td>
-                    <td>Motijhil, 123</td>
+                    <td>HR1</td>
+                    <td>Kamrul,Rahim,Employee1</td>
+                    <td>VAS Meeting</td>
+                    <td>15-01-2021</td>
+                    <td>4:30pm</td>
+                    <td>VAS Room 1</td>
                     <td>
-                        <a href="{{route('user.profile')}}"  title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                      <button class="btn btn-danger btn-xs">Pending</button>
                     </td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">2</td>
-                    <td>Arif Khan</td>
-                    <td>arif@gmail.com</td>
-                    <td><button class="btn btn-success btn-xs">Mediator</button></td>
-                    <td>General Manager</td>
-                    <td>World Health Organization</td>
-                    <td>+00155664</td>
-                    <td>+001t565</td>
-                    <td>Dhaka, 123</td>
+                    <td>HR1</td>
+                    <td>Kamrul,Rahim,Employee1</td>
+                    <td>VAS Meeting</td>
+                    <td>15-01-2021</td>
+                    <td>4:30pm</td>
+                    <td>VAS Room 1</td>
                     <td>
-                        <a href="{{route('user.profile')}}" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                      <button class="btn btn-success btn-xs">Approved</button>
                     </td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">3</td>
-                    <td>Raziul Haque</td>
-                    <td>raziul@gmail.com</td>
-                    <td><button class="btn btn-success btn-xs">User</button></td>
-                    <td>Additional Manager</td>
-                    <td>Bangladesh Swwiming Ferdaration</td>
-                    <td>+0014354</td>
-                    <td>+0014334</td>
-                    <td>Mohakhali, 123</td>
+                    <td>HR1</td>
+                    <td>Kamrul,Rahim,Employee1</td>
+                    <td>VAS Meeting</td>
+                    <td>15-01-2021</td>
+                    <td>4:30pm</td>
+                    <td>VAS Room 1</td>
                     <td>
-                        <a href="{{route('user.profile')}}" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                    <button class="btn btn-danger btn-xs">Pending</button>
                     </td>
                   </tr>
                   </tbody>

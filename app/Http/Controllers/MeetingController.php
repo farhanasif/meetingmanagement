@@ -14,7 +14,7 @@ class MeetingController extends Controller
         return view('admin.meetings.meeting_schudule');
     }
 
-    public function createMeeting(){
+    public function showForm(){
         return view('admin.meetings.create');
     }
 
