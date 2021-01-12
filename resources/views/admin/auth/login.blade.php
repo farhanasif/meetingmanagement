@@ -33,7 +33,7 @@
       <form action="{{route('admin.login')}}" method="post">
       @csrf
         <div class="input-group mb-3">
-          <input type="email" name="email" value="{{old('email')}}" class="form-control" placeholder="Email">
+          <input type="email" name="email" id="Geeks" value="{{old('email')}}" class="form-control" placeholder="Email">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -67,12 +67,18 @@
 
       <div class="social-auth-links text-center mb-3">
         <p>- OR -</p>
-        <a id="adminId" href="#" class="btn btn-block btn-primary">
+        <button onclick = "myGeeks()" id="adminId" href="#" class="btn btn-block btn-primary">
           <i class="fab fa-men mr-2"></i> Login As Admin
-        </a>
-        <a id="userId" href="#" class="btn btn-block btn-danger">
+        </button>
+        <button id="userId" href="#" class="btn btn-block btn-danger">
           <i class="fab fa--plus mr-2"></i> Login As User
-        </a>
+        </button>
+        <script>  
+            function myGeeks() {  
+                var btn = document.getElementById("Geeks").defaultValue;  
+                document.getElementById("GFG").innerHTML = btn;  
+            }  
+        </script>
       </div>
       <!-- /.social-auth-links -->
 

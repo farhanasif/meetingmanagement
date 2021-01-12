@@ -38,3 +38,12 @@ Route::get('/eqiupment/list','EquipmentController@allEquipment')->name('eqiupmen
 //physical location
 Route::get('/create/physical/location','physicalLocationController@index')->name('physical.location');
 Route::get('/physical/list','physicalLocationController@allPhyLocation')->name('physical.datatable');
+
+//Users
+Route::get('/user/dashboard','UserController@dashboard')->name('user.dashboard');
+Route::get('/all/user/list','UserController@allUserList')->name('allUser.datatable');
+//User Meeting
+Route::get('/userMeeting','UserMeetingController@userMeeting')->name('userMeeting');
+Route::get('/user/meeting/details','UserMeetingController@meetingDetails')->name('userMeetingDetails');
+//create meeting
+Route::get('/create/meeting','UserMeetingController@addMeeting')->name('addMeeting');
