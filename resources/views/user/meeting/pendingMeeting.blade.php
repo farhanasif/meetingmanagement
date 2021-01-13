@@ -57,8 +57,8 @@
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">1</td>
                     <td>HR1</td>
-                    <td>Kamrul,Rahim,Employee1</td>
-                    <td>VAS Meeting</td>
+                    <td>Kamru<br>Rahim<br>Employee1</td>
+                    <td>Group Meeting</td>
                     <td>15-01-2021</td>
                     <td>4:30pm</td>
                     <td>VAS Room 1</td>
@@ -69,11 +69,11 @@
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">2</td>
                     <td>HR1</td>
-                    <td>Kamrul,Rahim,Employee1</td>
-                    <td>VAS Meeting</td>
+                    <td>Kamrul<br>Rahim<br>Employee1</td>
+                    <td>General Meeting</td>
                     <td>15-01-2021</td>
                     <td>4:30pm</td>
-                    <td>VAS Room 1</td>
+                    <td>RVAS Room 1</td>
                     <td>
                       <button class="btn btn-success btn-xs">Approved</button>
                     </td>
@@ -81,11 +81,11 @@
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">3</td>
                     <td>HR1</td>
-                    <td>Kamrul,Rahim,Employee1</td>
+                    <td>Neel Ahmed<br>Razzak<br>Kader</td>
                     <td>VAS Meeting</td>
                     <td>15-01-2021</td>
-                    <td>4:30pm</td>
-                    <td>VAS Room 1</td>
+                    <td>3:30pm</td>
+                    <td>VTAS Room 1</td>
                     <td>
                     <button class="btn btn-danger btn-xs">Pending</button>
                     </td>

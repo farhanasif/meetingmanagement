@@ -23,5 +23,11 @@ class UserPhysicalLocationController extends Controller
         $phyLocation->appends(['search'=>$searchValue]);
     }
     return view('user.physical_lication.searchPhyLocation')->with('phyLocations',$phyLocation);
-}
+   }
+
+    //phy location
+    public function locationDetail(){
+        return view('user.physical_lication.locationDetails');
+
+    }
 }

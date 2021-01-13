@@ -14,6 +14,10 @@ class UserController extends Controller
     public function allUser(){
         return view('admin.user.allUser');
     }
+
+    public function infoDetails(){
+        return view('admin.user.userDetail');
+    }
     
     //this method is only for user from userController
     public function dashboard(){
@@ -42,4 +46,9 @@ class UserController extends Controller
         }
         return view('user.users.search_user')->with('user',$users);
     }
+
+   //user details==when click in table details button
+   public function userDetailsInformation(){
+       return view('user.userinfo.userDetails');
+   }
 }

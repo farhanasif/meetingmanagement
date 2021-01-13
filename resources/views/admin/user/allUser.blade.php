@@ -67,8 +67,7 @@
                     <td>+00143345</td>
                     <td>Motijhil, 123</td>
                     <td>
-                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                        <a href="{{route('details.info')}}" class="btn btn-info btn-xs" title="Edit">Details</a>
                     </td>
                   </tr>
                   <tr role="row" class="odd">
@@ -82,8 +81,7 @@
                     <td>+001t565</td>
                     <td>Dhaka, 123</td>
                     <td>
-                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                    <a href="{{route('details.info')}}" class="btn btn-info btn-xs" title="Edit">Details</a>
                     </td>
                   </tr>
                   <tr role="row" class="odd">
@@ -97,8 +95,7 @@
                     <td>+0014334</td>
                     <td>Mohakhali, 123</td>
                     <td>
-                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                    <a href="{{route('details.info')}}" class="btn btn-info btn-xs" title="Edit">Details</a>
                     </td>
                   </tr>
                   </tbody>

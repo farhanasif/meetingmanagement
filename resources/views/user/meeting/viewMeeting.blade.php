@@ -44,7 +44,7 @@
                   <thead>
                   <tr role="row">
                     <th class="sorting" aria-controls="example1">Serial No</th>
-                    <th class="sorting" aria-controls="example1">Company Name</th>
+                    <th class="sorting" aria-controls="example1">Organization Name</th>
                     <th class="sorting" aria-controls="example1">Employee Name</th>
                     <th class="sorting" aria-controls="example1">Meeting Title</th>
                     <th class="sorting" aria-controls="example1">Date</th>
@@ -56,42 +56,53 @@
                   <tbody>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">1</td>
-                    <td>HR1</td>
-                    <td>Kamrul,Rahim,Employee1</td>
-                    <td>VAS Meeting</td>
-                    <td>15-01-2021</td>
-                    <td>4:30pm</td>
+                    <td>Sports 1</td>
+                    <td>হামেদুল ইসলাম <br>রাসিদুল ইসলাম<br>জামাল</td>
+                    <td>Gerneral meeting</td>
+                    <td>10 Jan 2021</td>
+                    <td>2:30pm</td>
                     <td>VAS Room 1</td>
-                    <td>
-                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
-                    </td>
+                    <td><a href="{{route('viewMeetingdetailsInfo')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">2</td>
-                    <td>HR1</td>
-                    <td>Kamrul,Rahim,Employee1</td>
-                    <td>VAS Meeting</td>
-                    <td>15-01-2021</td>
-                    <td>4:30pm</td>
+                    <td>Sports 2</td>
+                    <td>রাজ্জাক<br>আরিফ<br>Employee1</td>
+                    <td>Group Meeting discussion</td>
+                    <td>14 Jan 2021</td>
+                    <td>2 pm</td>
                     <td>VAS Room 1</td>
-                    <td>
-                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
-                    </td>
+                    <td><a href="{{route('viewMeetingdetailsInfo')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">3</td>
                     <td>HR1</td>
-                    <td>Kamrul,Rahim,Employee1</td>
+                    <td>Kamrul<br>Rahim<br>Employee1</td>
                     <td>VAS Meeting</td>
-                    <td>15-01-2021</td>
+                    <td>15 Jan 2021</td>
+                    <td>4 pm</td>
+                    <td>VAS Room 1</td>
+                    <td><a href="{{route('viewMeetingdetailsInfo')}}" class="btn btn-info btn-xs">Details</a></td>
+                  </tr>
+                  <tr role="row" class="odd">
+                    <td class="dtr-control sorting_1">4</td>
+                    <td>WHO 1</td>
+                    <td>রিপন খান<br>আলি ইমরান<br>সাজু</td>
+                    <td>Simple Meeting discussion</td>
+                    <td>15 Jan 2021</td>
                     <td>4:30pm</td>
                     <td>VAS Room 1</td>
-                    <td>
-                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
-                    </td>
+                    <td><a href="{{route('viewMeetingdetailsInfo')}}" class="btn btn-info btn-xs">Details</a></td>
+                  </tr>
+                  <tr role="row" class="odd">
+                    <td class="dtr-control sorting_1">4</td>
+                    <td>WHO 1</td>
+                    <td>শাহিন<br>ফয়সাল<br>নীল আহ্মেদ</td>
+                    <td>Association discussion</td>
+                    <td>11 Jan 2021</td>
+                    <td>1:30pm</td>
+                    <td>MRT Room 1</td>
+                    <td><a href="{{route('viewMeetingdetailsInfo')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   </tbody>
                  

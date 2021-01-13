@@ -1,4 +1,4 @@
-@extends('admin.master')
+@extends('user.master')
 @section('title', 'View Meeting Details')
 
 @section('stylesheet')
@@ -11,12 +11,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">View Meeting Details</h1>
+            <h1 class="m-0 text-dark">View Location Details</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Dashboard Of View Meeting Details</li>
+              <li class="breadcrumb-item active">Dashboard Of View Location Details</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -35,7 +35,7 @@
               <div class="row">
                 <div class="col-12">
                   <h4>
-                    <i class="fas fa-globe"></i>Discussion Meeting details.</br>
+                    <i class="fas fa-globe"></i>Discussion Location details.</br>
                     <small style="color:blue;">10-01-2021</small><hr>
                   </h4>
                 </div>
@@ -56,19 +56,25 @@
                     <div class="col-sm-3">
                     <div class="form-group">
                         <label>Organization Name</label>
+                        <p>Office of the State Minister</p>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>Location</label>
                         <p>Motijhil</p>
                       </div>
                     </div>
                     <div class="col-sm-3">
                     <div class="form-group">
-                        <label>Time Duration</label>
-                        <p>11:30 pm - 1:30 pm</p>
+                        <label>Location Type</label>
+                        <p>	Middle City</p>
                       </div>
                     </div>
                     <div class="col-sm-3">
                     <div class="form-group">
-                        <label>Meeting Name</label>
-                        <p>Discussion Meeting</p>
+                        <label>Equipment</label>
+                        <p>	Printer, IT Support, Scaner</p>
                       </div>
                     </div>
                   </div>
