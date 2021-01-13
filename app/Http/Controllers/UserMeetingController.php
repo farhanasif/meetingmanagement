@@ -34,6 +34,8 @@ class UserMeetingController extends Controller
         if($searchValue){
             $meetings=Admin::where('status',1)
             ->where('name','like','%'.$searchValue.'%')
+            ->orWhere('designation','like','%'.$searchValue.'%')
+            //->where('admin','like','%'.$searchValue.'%')
             ->paginate(3);
             $meetings->appends(['search'=>$searchValue]);
         }
