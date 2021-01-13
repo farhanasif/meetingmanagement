@@ -66,10 +66,7 @@
                     <td>+001575638</td>
                     <td>+00143345</td>
                     <td>Motijhil, 123</td>
-                    <td>
-                        <a href="{{route('user.profile')}}"  title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
-                    </td>
+                    <td><a href="{{url('user/meeting/details')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">2</td>
@@ -81,10 +78,7 @@
                     <td>+00155664</td>
                     <td>+001t565</td>
                     <td>Dhaka, 123</td>
-                    <td>
-                        <a href="{{route('user.profile')}}" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
-                    </td>
+                    <td><a href="{{url('user/meeting/details')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">3</td>
@@ -96,10 +90,7 @@
                     <td>+0014354</td>
                     <td>+0014334</td>
                     <td>Mohakhali, 123</td>
-                    <td>
-                        <a href="{{route('user.profile')}}" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
-                    </td>
+                    <td><a href="{{url('user/meeting/details')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   </tbody>
                  

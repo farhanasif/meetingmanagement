@@ -48,12 +48,12 @@
                   <p>Meeting</p>
                 </a>
               </li>
-              <!-- <li class="nav-item">
+              <li class="nav-item">
                 <a href="{{route('meeting.schudule')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Meeting schudules</p>
                 </a>
-              </li> -->
+              </li>
               <!-- <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
@@ -73,15 +73,45 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{route('show.form')}}" class="nav-link">
+                <a href="{{route('addMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Create Meeting</p>
+                  <p>Add Meeting</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('meeting.type')}}" class="nav-link">
+                <a href="{{route('viewMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>All Meeting</p>
+                  <p>View Meeting</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('viewPreviousMeeting')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>View Previous Meeting</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('searchPreviousMeeting')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Search Previous Meeting</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('userMeeting')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Meeting</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('viewPendingMeeting')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>View Pending Meeting</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('searchPendingMeeting')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Search Pending Meeting</p>
                 </a>
               </li>
             </ul>
@@ -151,7 +181,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{url('eqiupment/list')}}" class="nav-link">
+                <a href="{{url('adminEqiupment/list')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>All Equipment</p>
                 </a>

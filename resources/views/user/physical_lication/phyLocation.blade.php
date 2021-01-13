@@ -57,10 +57,9 @@
                     <td>Office of the State Minister</td>
                     <td>Motijhil</td>
                     <td>Middle City</td>
-                    <td>Printer, IT Support, Scaner</td>
+                    <td>Printer<br>IT Support<br>Scaner</td>
                     <td>
-                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                        <a href="{{route('physicalLoc')}}" class="btn btn-info btn-xs" title="Edit">Details</a>            
                     </td>
                   </tr>
                   <tr role="row" class="odd">
@@ -68,10 +67,9 @@
                     <td>Sports 1</td>
                     <td>Motijhil</td>
                     <td>Middle City</td>
-                    <td>IT Support, Scaner, Desktop</td>
+                    <td>IT Support<br>Scaner<br>Desktop</td>
                     <td>
-                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                    <a href="{{route('physicalLoc')}}" class="btn btn-info btn-xs" title="Edit">Details</a>
                     </td>
                   </tr>
                   <tr role="row" class="odd">
@@ -79,10 +77,9 @@
                     <td>Office of the State Minister</td>
                     <td>Dhanmondi</td>
                     <td>Middle City</td>
-                    <td>Printer, IT Support, Scaner</td>
+                    <td>Printer<br>IT Support<br>Scaner</td>
                     <td>
-                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
+                    <a href="{{route('physicalLoc')}}" class="btn btn-info btn-xs" title="Edit">Details</a>
                     </td>
                   </tr>
                   </tbody>

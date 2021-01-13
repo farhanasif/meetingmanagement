@@ -45,7 +45,7 @@
                     <div class="col-sm-6">
                       <!-- text input -->
                       <div class="form-group">
-                        <label>Company</label>
+                        <label>Oraganization</label>
                         <input type="text" name="company" class="form-control" placeholder="Enter ...">
                       </div>
                     </div>
@@ -54,9 +54,9 @@
                         <label>Employee</label>
                         <select class="form-control">
                           <option value="">--Select Employee--</option>
-                          <option>Kamrul</option>
-                          <option>New User</option>
-                          <option>Rahim</option>
+                          <option>Kamrul (Director)</option>
+                          <option>New User (Additional Officer)</option>
+                          <option>Rahim (Assistent Officer)</option>
                         </select>
                       </div>
                     </div>
@@ -80,28 +80,93 @@
 
                   <div class="row">
                     <div class="col-sm-6">
-                      <!-- Select multiple-->
-                      <div class="form-group">
-                        <label>Meeting Time</label>
-                        <input type="text" name="mtime" class="form-control" placeholder="Enter ...">
+                      <div class="bootstrap-timepicker">
+                          <div class="form-group">
+                            <label>From Meeting Time</label>
+                            <div class="input-group date" id="timepicker" data-target-input="nearest">
+                              <input type="text" class="form-control datetimepicker-input" data-target="#timepicker">
+                              <div class="input-group-append" data-target="#timepicker" data-toggle="datetimepicker">
+                                  <div class="input-group-text"><i class="far fa-clock"></i></div>
+                              </div>
+                            </div>
+                            <!-- /.input group -->
+                         </div>
                       </div>
                     </div>
                     <div class="col-sm-6">
-                      <div class="form-group">
-                        <label>Meeting Room </label>
-                        <input type="phone" name="mroom" class="form-control" placeholder="Enter ...">
+                      <div class="bootstrap-timepicker">
+                          <div class="form-group">
+                            <label>To Meeting Time</label>
+                            <div class="input-group date" id="timepicker2" data-target-input="nearest">
+                              <input type="text" class="form-control datetimepicker-input" data-target="#timepicker">
+                              <div class="input-group-append" data-target="#timepicker2" data-toggle="datetimepicker">
+                                  <div class="input-group-text"><i class="far fa-clock"></i></div>
+                              </div>
+                            </div>
+                            <!-- /.input group -->
+                         </div>
                       </div>
                     </div>
+                    
                   </div>
                   <div class="row">
                     <div class="col-sm-6">
-                      <!-- Select multiple-->
-                      <div class="form-group">
-                        <label>Meeting Note</label>
-                        <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                        <div class="form-group">
+                          <label>Meeting Room </label>
+                          <input type="phone" name="mroom" class="form-control" placeholder="Enter ...">
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <!-- Select multiple-->
+                        <div class="form-group">
+                          <label>Meeting Type</label>
+                          <select class="form-control">
+                            <option value="">--Select Meeting Type--</option>
+                            <option>Physical Meeting</option>
+                            <option>Virtual Meeting</option>
+                          </select>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                          <label>Upload Agenda</label>
+                          <div class="input-group">
+                            <div class="custom-file">
+                              <input type="file" class="custom-file-input" id="exampleInputFile">
+                              <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                            </div>
+                            <div class="input-group-append">
+                              <span class="input-group-text" id="">Upload</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                      <div class="form-group">
+                          <label>Upload Office Notice</label>
+                          <div class="input-group">
+                            <div class="custom-file">
+                              <input type="file" class="custom-file-input" id="exampleInputFile">
+                              <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                            </div>
+                            <div class="input-group-append">
+                              <span class="input-group-text" id="">Upload</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     </div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <!-- Select multiple-->
+                        <div class="form-group">
+                          <label>Meeting Note</label>
+                          <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                        </div>
+                      </div>
+                    </div>
                   <div class="card-footer">
                     <a href="{{route('user.dashboard')}}" type="submit" class="btn btn-warning">Cancel</a>
                     <button type="submit" class="btn btn-info float-right">Submit</button>
@@ -123,6 +188,13 @@
 @endsection
 @section('script')
 <script>
-  
+  //Timepicker
+  $('#timepicker').datetimepicker({
+      format: 'LT'
+    })
+
+    $('#timepicker2').datetimepicker({
+      format: 'LT'
+    })
 </script>
 @endsection

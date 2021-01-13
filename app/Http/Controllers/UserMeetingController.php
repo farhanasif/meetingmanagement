@@ -59,4 +59,14 @@ class UserMeetingController extends Controller
         }
         return view('user.meeting.search_pendingMeeting')->with('meeting',$meetings);
     }
+
+    //view all meeting details
+    public function viewMeetingDetails(){
+        return view('user.meeting.viewAllMeetingDetails');
+    }
+    
+    //view Previous meeting details
+    public function viewPreviousMeetingDetails(){
+        return view('user.meeting.viewPreviousMeetingDetails');
+    }
 }

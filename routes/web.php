@@ -31,11 +31,12 @@ Route::get('/meeting/schudule','MeetingController@schudules')->name('meeting.sch
 Route::get('/create/user','UserController@index')->name('user');
 //Route::post('/store/users','UserController@store')->name('store.users');
 Route::get('/user/list','UserController@allUser')->name('user.datatable');
+Route::get('userDetails/information','UserController@infoDetails')->name('details.info');
 
 //Equipment
 //Route::get('/create/eqiupment','EquipmentController@index')->name('eqiupment');
 Route::get('addEquipment','EquipmentController@equipmentIndex')->name('equipmentForm');
-Route::get('/eqiupment/list','EquipmentController@allEquipment')->name('eqiupment.datatable');
+Route::get('/adminEqiupment/list','EquipmentController@allEquipment')->name('eqiupment.datatable');
 
 //physical location
 Route::get('/create/physical/location','physicalLocationController@index')->name('physical.location');
@@ -53,8 +54,13 @@ Route::post('/user/logout','Auth\LoginController@logout')->name('user.logout');
 //Users
 Route::get('/user/dashboard','UserController@dashboard')->name('user.dashboard');
 Route::get('/search/user','UserController@searchUser')->name('searchUser');
-Route::get('all/users','UserController@userList');
+Route::get('/all/users','UserController@userList');
+//user details
+//Route::get('/user/detail','UserController@usersDetails')->name('usersDetails');
+Route::get('/user/detail','UserController@userDetailsInformation')->name('userinfoDetails');
 //Route::get('/all/user/list','UserController@allUserList')->name('allUser.datatable');
+
+
 //User Meeting
 Route::get('/userMeeting','UserMeetingController@userMeeting')->name('userMeeting');
 Route::get('/user/meeting/details','UserMeetingController@meetingDetails')->name('userMeetingDetails');
@@ -62,8 +68,10 @@ Route::get('/user/meeting/details','UserMeetingController@meetingDetails')->name
 Route::get('/create/meeting','UserMeetingController@addMeeting')->name('addMeeting');
 Route::get('/view/meetings','UserMeetingController@viewMeeting')->name('viewMeeting');
 Route::get('/view/previous/meeting','UserMeetingController@viewPreviousMeeting')->name('viewPreviousMeeting');
+Route::get('/view/previousMeetingDetails','UserMeetingController@viewPreviousMeetingDetails')->name('viewPreviousMeetingdetailsInfo');
 Route::get('/search/previous/meeting','UserMeetingController@searchPreviousMeeting')->name('searchPreviousMeeting');
 Route::get('/view/pending/meeting','UserMeetingController@viewPendingMeeting')->name('viewPendingMeeting');
+Route::get('/view/allmeetingDetails','UserMeetingController@viewMeetingDetails')->name('viewMeetingdetailsInfo');
 //user profile(UserController)
 Route::any('/user/profile','UserController@profile')->name('user.profile');
 Route::get('/search/pending/meeting','UserMeetingController@searchPendingMeeting')->name('searchPendingMeeting');
@@ -75,3 +83,4 @@ Route::get('/search/equipment','UserEquipmentController@searchEquipment')->name(
 //physical location
 Route::get('/view/physical/location','UserPhysicalLocationController@index')->name('physicalLocation');
 Route::get('/search/physical/location','UserPhysicalLocationController@searchPhyLocation')->name('searchPhylocation');
+Route::get('/physical/locationDetails','UserPhysicalLocationController@locationDetail')->name('physicalLoc');

@@ -59,39 +59,30 @@
                     <td>SPR1</td>
                     <td>Rakibul,Hasan,Employee 3</td>
                     <td>SPR Meeting</td>
-                    <td>11-01-2021</td>
+                    <td>10 Jan 2021</td>
                     <td>4:30pm</td>
                     <td>SPR Room 1</td>
-                    <td>
-                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
-                    </td>
+                    <td><a href="{{route('viewPreviousMeetingdetailsInfo')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">2</td>
                     <td>SRT 1</td>
                     <td>Kamrul,Rahim,Employee1</td>
                     <td>SRT Meeting</td>
-                    <td>15-01-2021</td>
-                    <td>4:30pm</td>
+                    <td>11 Jan 2021</td>
+                    <td>2:30pm</td>
                     <td>SRT Room 1</td>
-                    <td>
-                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
-                    </td>
+                    <td><a href="{{route('viewPreviousMeetingdetailsInfo')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">3</td>
                     <td>HR1</td>
                     <td>Kamrul,Rahim,Employee1</td>
                     <td>VAS Meeting</td>
-                    <td>15-01-2021</td>
-                    <td>4:30pm</td>
+                    <td>12 Jan 2021</td>
+                    <td>5:30pm</td>
                     <td>VAS Room 1</td>
-                    <td>
-                        <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                        <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
-                    </td>
+                    <td><a href="{{route('viewPreviousMeetingdetailsInfo')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   </tbody>
                  
