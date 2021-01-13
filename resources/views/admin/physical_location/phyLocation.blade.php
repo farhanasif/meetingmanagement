@@ -94,7 +94,7 @@
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a href="{{route('eqiupment.datatable')}}" class="btn btn-warning">Cancel</a>
+                    <a href="{{url('physical/list')}}" class="btn btn-warning">Cancel</a>
                     <button type="submit" class="btn btn-info float-right">Submit</button>
                   </div>
                 </form>

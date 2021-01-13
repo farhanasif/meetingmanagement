@@ -22,6 +22,9 @@ class CreateAdminsTable extends Migration
             $table->string('photo')->nullable();
             $table->integer('status',false,false);
             $table->string('role');
+            $table->string('pnone');
+            $table->string('designation');
+            $table->string('organization');
             $table->rememberToken();
             $table->timestamps();
         });

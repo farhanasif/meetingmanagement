@@ -95,7 +95,7 @@
           <div class="dropdown-divider"></div>
 
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Profile<i class="nav-icon fas fa-user text-orange pull-right"></i>
+            <a class="dropdown-item" href="{{route('user.profile')}}">Profile<i class="nav-icon fas fa-user text-orange pull-right"></i>
             </a>
             <a class="dropdown-item" href="{{route('admin.login')}}" onclick="document.getElementById('admin-logout').submit()"> Log Out<i class="fa fa-sign-out pull-right"></i></a>
             <form id="admin-logout" action="#" method="post" style="display: none">
