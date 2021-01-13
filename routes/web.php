@@ -59,6 +59,8 @@ Route::get('/all/users','UserController@userList');
 //Route::get('/user/detail','UserController@usersDetails')->name('usersDetails');
 Route::get('/user/detail','UserController@userDetailsInformation')->name('userinfoDetails');
 //Route::get('/all/user/list','UserController@allUserList')->name('allUser.datatable');
+//print user
+Route::get('/print/user','UserController@printUser')->name('printUser');
 
 
 //User Meeting
@@ -76,10 +78,16 @@ Route::get('/view/allmeetingDetails','UserMeetingController@viewMeetingDetails')
 Route::any('/user/profile','UserController@profile')->name('user.profile');
 Route::get('/search/pending/meeting','UserMeetingController@searchPendingMeeting')->name('searchPendingMeeting');
 
+//print meeting
+Route::get('/print/meeting','UserMeetingController@printMeeting')->name('printMeeting');
+//print pending meeting
+Route::get('/print/pending/meeting','UserMeetingController@printPendingMeeting')->name('printPendingMeeting');
+
 //Uer equipment
 Route::get('/eqiupment/list','UserEquipmentController@allEquipments')->name('eqiupments.datatable');
 Route::get('/search/equipment','UserEquipmentController@searchEquipment')->name('searchEquipment');
-
+//print equipment
+Route::get('/print/equipment','UserEquipmentController@printEquipment')->name('printEquipment');
 //physical location
 Route::get('/view/physical/location','UserPhysicalLocationController@index')->name('physicalLocation');
 Route::get('/search/physical/location','UserPhysicalLocationController@searchPhyLocation')->name('searchPhylocation');

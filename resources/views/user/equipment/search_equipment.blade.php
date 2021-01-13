@@ -42,58 +42,34 @@
               <div class="card-body">
                 <form role="form">
                   <div class="row">
-                    <div class="input-group input-group-sm">
-                       <form action="" method="post">
-                            <input type="text" class="form-control" name="search" placeholder="Search Equipment Something">
-                            <span class="input-group-append">
-                            <button class="btn btn-success btn-sm"><i class="fa fa-search"></i> Search</button>
-                            </span>
-                        </form>
+                  <div class="col-sm-6">
+                      <div class="form-group">
+                        <label>Equipment Name</label>
+                        <select class="form-control" id="orgId">
+                          <option value="">--Select Equipment Name--</option>
+                          <option>Computer</option>
+                          <option>Printer</option>
+                          <option>Scaner</option>
+                          <option>Hardware</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label>Location Name</label>
+                        <select class="form-control" id="employeeId">
+                          <option value="">--Select Location--</option>
+                          <option>Motijhil</option>
+                          <option>Uttra</option>
+                          <option>Mohakhali</option>
+                        </select>
+                      </div>
                     </div>
                   </div><br>
 
-                  <div class="card-body">
-                <div id="example1_wrapper" class="dataTables_wrapper dt-bootstrap4">
-                <div class="row">
-                <div class="col-sm-12">
-                <table id="example1" class="table table-bordered table-striped dataTable dtr-inline" role="grid" aria-describedby="example1_info">
-                  <thead>
-                  <tr role="row">
-                    <th class="sorting" aria-controls="example1">Serial No</th>
-                    <th class="sorting" aria-controls="example1">Equipment Name</th>
-                    <th class="sorting" aria-controls="example1">Movable or Fixed</th>
-                    <th class="sorting" aria-controls="example1">Location</th>
-                    <th class="sorting" aria-controls="example1">Id</th>
-                    <th class="sorting_asc" aria-controls="example1">dDescription</th>
-                    <th class="sorting" aria-controls="example1">Action</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  @forelse($meeting as $row)
-                    <tr role="row" class="odd">
-                        <td class="dtr-control sorting_1">1</td>
-                        <td>Computer</td>
-                        <td>Yes</td>
-                        <td>Motijhil</td>
-                        <td>Eo1223</td>
-                        <td>This equipment is good enough</td>
-                        <td>
-                            <a href="#" class="btn btn-info btn-xs" title="Edit"><i class="far fa-edit"></i></a>
-                            <a href="#" class="btn btn-danger btn-xs" title="Delete"><i class="far fa-trash-alt"></i></a>
-                        </td>
-                    </tr>
-                    @empty
-                    <tr>
-                        <td colspan="8" style="text-align:center;color:red ">No Data Found</td>
-                    </tr>
-                  @endforelse
-                  </tbody>
-                 
-                </table>
-                @if(count($meeting)>0)
-                       {{$meeting->links()}}
-                @endif
-                </div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="example1_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="example1_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="example1_previous"><a href="#" aria-controls="example1" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="example1" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="example1" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="example1" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item "><a href="#" aria-controls="example1" data-dt-idx="4" tabindex="0" class="page-link">4</a></li><li class="paginate_button page-item "><a href="#" aria-controls="example1" data-dt-idx="5" tabindex="0" class="page-link">5</a></li><li class="paginate_button page-item "><a href="#" aria-controls="example1" data-dt-idx="6" tabindex="0" class="page-link">6</a></li><li class="paginate_button page-item next" id="example1_next"><a href="#" aria-controls="example1" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li></ul></div></div></div></div>
+
+              <div class="card-body" id="EquipmentId">
+                
               </div>
               </div>
               <!-- /.card-body -->
@@ -110,7 +86,17 @@
   </div>
 @endsection
 @section('script')
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
-  
+    $('#employeeId').change(function (e) {
+        e.preventDefault();
+        $.ajax({
+                type: "get",
+                url:"{{url('/print/equipment')}}",
+                success: function (data) {
+                    $('#EquipmentId').html(data);
+                }
+            });
+    });
 </script>
 @endsection
