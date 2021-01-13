@@ -51,4 +51,9 @@ class UserController extends Controller
    public function userDetailsInformation(){
        return view('user.userinfo.userDetails');
    }
+
+   //print user
+   public function printUser(){
+       return view('user.users.printUser');
+   }
 }

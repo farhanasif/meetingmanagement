@@ -69,4 +69,14 @@ class UserMeetingController extends Controller
     public function viewPreviousMeetingDetails(){
         return view('user.meeting.viewPreviousMeetingDetails');
     }
+
+    //print meeting
+    public function printMeeting(){
+        return view('user.meeting.searchMeetingPrint');
+    }
+
+    //print pending meeting
+    public function printPendingMeeting(){
+        return view('user.meeting.pendingMeetingPrint');
+    }
 }

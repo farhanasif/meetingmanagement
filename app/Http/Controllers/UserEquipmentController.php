@@ -24,4 +24,8 @@ class UserEquipmentController extends Controller
         }
         return view('user.equipment.search_equipment')->with('meeting',$meetings);
     }
+
+    public function printEquipment(){
+        return view('user.equipment.printEquipment');
+    }
 }
