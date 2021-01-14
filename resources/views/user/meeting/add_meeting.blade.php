@@ -34,7 +34,7 @@
             </div>
             <!-- /.card -->
 
-            <div class="card card-info">
+            <div class="card card-success">
               <div class="card-header">
                 <h3 class="card-title">Create Meeting</h3>
               </div>
@@ -168,8 +168,8 @@
                       </div>
                     </div>
                   <div class="card-footer">
-                    <a href="{{route('user.dashboard')}}" type="submit" class="btn btn-warning">Cancel</a>
-                    <button type="submit" class="btn btn-info float-right">Submit</button>
+                    <a href="{{route('viewMeeting')}}" type="submit" class="btn btn-warning">Cancel</a>
+                    <button type="submit" class="btn btn-success float-right">Submit</button>
                   </div>
                 </form>
               </div>

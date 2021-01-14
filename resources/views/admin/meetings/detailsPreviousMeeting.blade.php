@@ -1,5 +1,5 @@
 @extends('admin.master')
-@section('title', 'View Meeting Details')
+@section('title', 'View Previous Meeting Details')
 
 @section('stylesheet')
 
@@ -11,12 +11,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">View Meeting Details</h1>
+            <h1 class="m-0 text-dark">View Previous Meeting Details</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Dashboard Of View Meeting Details</li>
+              <li class="breadcrumb-item active">Dashboard Of View Previous Meeting Details</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -35,7 +35,7 @@
               <div class="row">
                 <div class="col-12">
                   <h4>
-                    <i class="fas fa-globe"></i> Group Meeting discussion.</br>
+                    <i class="fas fa-globe"></i> Previous Meeting discussion.</br>
                     <small style="color:blue;">Date: 10-01-2021</small><hr>
                   </h4>
                 </div>
@@ -50,19 +50,19 @@
                       <!-- select -->
                       <div class="form-group">
                         <label>Oraganization:</label>
-                       <p>Sports 1</p>
+                       <p>SPR1</p>
                       </div>
                     </div>
                     <div class="col-sm-3">
                     <div class="form-group">
                         <label>Employee Name</label>
-                        <p>হামেদুল ইসলাম<br> রাসিদুল ইসলাম <br>জামাল</p>
+                        <p>Rakibul<br>Hasan<br>Employee 3</p>
                       </div>
                     </div>
                     <div class="col-sm-3">
                     <div class="form-group">
                         <label>Meeting Title</label>
-                        <p>Gerneral meeting</p>
+                        <p>SPR Meeting</p>
                       </div>
                     </div>
                     <div class="col-sm-3">

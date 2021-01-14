@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,6 +14,7 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+Auth::routes();
 
 Route::get('/admin/login','Auth\AdminLoginController@index')->name('login');
 Route::post('/admin/login','Auth\AdminLoginController@login')->name('admin.login');
@@ -26,12 +27,21 @@ Route::get('/view/meeting','MeetingController@viewMeetingType')->name('meeting.t
 Route::get('/my/meetings','MeetingController@myMeeting')->name('meeting.datatable');
 Route::get('/meeting/details','MeetingController@meetingDetails')->name('meeting.details');
 Route::get('/meeting/schudule','MeetingController@schudules')->name('meeting.schudule');
+Route::get('/AdminViewMeeting','MeetingController@AdminViewMeeting')->name('adminViewMeeting');
+
+Route::get('/views/previousMeetingDetails','MeetingController@viewPreviousMeetings')->name('viewPreviousMeetingAdmin');
+Route::get('/views/admin/previousMeetingDetails','MeetingController@detailsPreviousMeeting')->name('detailsPreviousMeeting');
 
 //user add
 Route::get('/create/user','UserController@index')->name('user');
 //Route::post('/store/users','UserController@store')->name('store.users');
 Route::get('/user/list','UserController@allUser')->name('user.datatable');
 Route::get('userDetails/information','UserController@infoDetails')->name('details.info');
+
+//admin profile
+Route::get('/admin/profile','AdminProfileController@profile')->name('adminProfile');
+//User settings
+Route::get('/admin/setting','AdminSettingController@index')->name('adminSettings');
 
 //Equipment
 //Route::get('/create/eqiupment','EquipmentController@index')->name('eqiupment');
@@ -92,3 +102,6 @@ Route::get('/print/equipment','UserEquipmentController@printEquipment')->name('p
 Route::get('/view/physical/location','UserPhysicalLocationController@index')->name('physicalLocation');
 Route::get('/search/physical/location','UserPhysicalLocationController@searchPhyLocation')->name('searchPhylocation');
 Route::get('/physical/locationDetails','UserPhysicalLocationController@locationDetail')->name('physicalLoc');
+
+//User settings
+Route::get('/user/setting','UserSettingController@index')->name('userSettings');

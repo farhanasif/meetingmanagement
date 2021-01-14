@@ -8,7 +8,7 @@
         <a href="index3.html" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">Coordination</a>
       </li>
     </ul>
 
@@ -30,7 +30,7 @@
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
           <i class="far fa-bell"></i>
-          <span class="badge badge-warning navbar-badge">3</span>
+          <span class="badge badge-success navbar-badge">3</span>
         </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
           <span class="dropdown-item dropdown-header">3 Notifications</span>
@@ -84,7 +84,7 @@
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
           <i class="far fa-user"></i>
-          {{Auth::guard('system_admin')->user()->name}}
+            Coordination
         </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
           <span class="dropdown-item dropdown-header">
@@ -95,8 +95,9 @@
           <div class="dropdown-divider"></div>
 
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Profile &nbsp;&nbsp;<i class="nav-icon fas fa-user text-orange pull-right"></i>
+            <a class="dropdown-item" href="{{route('adminProfile')}}">Profile &nbsp;&nbsp;<i class="nav-icon fas fa-user text-orange pull-right"></i>
             </a>
+            <a class="dropdown-item" href="{{route('adminSettings')}}">Settings &nbsp;&nbsp;<i class="nav-icon fas fa-edit"></i>
             <a class="dropdown-item" href="#" onclick="document.getElementById('admin-logout').submit()"> Log Out<i class="fa fa-sign-out pull-right"></i></a>
             <form id="admin-logout" action="{{route('admin.logout')}}" method="post" style="display: none">
               @csrf
