@@ -49,10 +49,10 @@
                 <div class="card-body">
                   <!-- the events -->
                   <div id="external-events">
-                    <div class="external-event bg-success">2:30pm- Production Meeting</div>
-                    <div class="external-event bg-warning">3:30pm- Staff Meeting</div>
-                    <div class="external-event bg-info">4:30pm- Job Schudule</div>
-                    <div class="external-event bg-info">6:30pm- Analyst Meeting</div>
+                    <div class="external-event bg-success">2:30pm- Discussion Meeting</div>
+                    <div class="external-event bg-warning">3:30pm- Board Meeting</div>
+                    <div class="external-event bg-info">4:30pm- Employee Meeting</div>
+                    <div class="external-event bg-info">6:30pm- General Meeting</div>
                     <!-- <div class="checkbox">
                       <label for="drop-remove">
                         <input type="checkbox" id="drop-remove">

@@ -53,7 +53,7 @@
                   <tbody>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1" tabindex="0">1</td>
-                    <td class="dtr-control sorting_1" tabindex="0">10-01-2021</td>
+                    <td class="dtr-control sorting_1" tabindex="0">10 Jan 2021</td>
                     <td>11:30 pm - 1:30 pm</td>
                     <td>Staff Meeting</td>
                     <td>
@@ -61,28 +61,28 @@
                   </tr>
                   <tr role="row" class="odd">
                   <td class="dtr-control sorting_1" tabindex="0">2</td>
-                    <td class="dtr-control sorting_1" tabindex="0">11-01-2021</td>
+                    <td class="dtr-control sorting_1" tabindex="0">11 Jan 2021</td>
                     <td>2:30 pm - 3:30 pm</td>
                     <td>Employee Meeting</td>
                     <td><a href="{{route('userMeetingDetails')}}" class="btn btn-info btn-xs">More Details</a>&nbsp;&nbsp;<button class="btn btn-warning btn-xs">Confirm</button></td>
                   </tr>
                   <tr role="row" class="odd">
                   <td class="dtr-control sorting_1" tabindex="0">3</td>
-                    <td class="dtr-control sorting_1" tabindex="0">12-01-2021</td>
+                    <td class="dtr-control sorting_1" tabindex="0">12 Jan 2021</td>
                     <td>5:00 pm - 5:30 pm</td>
                     <td>Discussion Meeting</td>
                     <td><a href="{{route('userMeetingDetails')}}" class="btn btn-info btn-xs">More Details</a>&nbsp;&nbsp;<button class="btn btn-success btn-xs">Confirmed</button></td>
                   </tr>
                   <tr role="row" class="odd">
                   <td class="dtr-control sorting_1" tabindex="0">4</td>
-                    <td class="dtr-control sorting_1" tabindex="0">13-01-2021</td>
+                    <td class="dtr-control sorting_1" tabindex="0">13 Jan 2021</td>
                     <td>12:00 pm - 1:30 pm</td>
                     <td>Staff Meeting</td>
                     <td><a href="{{route('userMeetingDetails')}}" class="btn btn-info btn-xs">More Details</a>&nbsp;&nbsp;<button class="btn btn-success btn-xs">Confirmed</button></td>
                   </tr>
                   <tr role="row" class="odd">
                   <td class="dtr-control sorting_1" tabindex="0">5</td>
-                    <td class="dtr-control sorting_1" tabindex="0">14-01-2021</td>
+                    <td class="dtr-control sorting_1" tabindex="0">14 Jan 2021</td>
                     <td>2:30 pm - 5:30 pm</td>
                     <td>General Meeting</td>
                     <td><a href="{{route('userMeetingDetails')}}" class="btn btn-info btn-xs">More Details</a>&nbsp;&nbsp;<button class="btn btn-warning btn-xs">Confirm</button></td>

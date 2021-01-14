@@ -28,6 +28,8 @@ Route::get('/my/meetings','MeetingController@myMeeting')->name('meeting.datatabl
 Route::get('/meeting/details','MeetingController@meetingDetails')->name('meeting.details');
 Route::get('/meeting/schudule','MeetingController@schudules')->name('meeting.schudule');
 Route::get('/AdminViewMeeting','MeetingController@AdminViewMeeting')->name('adminViewMeeting');
+Route::get('/myMeeting/details','MeetingController@myMeetingDetails')->name('MyMeetingDetails');
+Route::get('/viewPendingMeeting','MeetingController@adminViewPendingMeeting')->name('viewAdminMeeting');
 
 Route::get('/views/previousMeetingDetails','MeetingController@viewPreviousMeetings')->name('viewPreviousMeetingAdmin');
 Route::get('/views/admin/previousMeetingDetails','MeetingController@detailsPreviousMeeting')->name('detailsPreviousMeeting');

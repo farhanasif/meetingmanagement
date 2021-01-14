@@ -63,7 +63,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>300<sup style="font-size: 20px"></sup></h3>
+                <h3>100<sup style="font-size: 20px"></sup></h3>
 
                 <p>Previous Meeting</p>
               </div>
@@ -78,7 +78,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>2<sup style="font-size: 20px"></sup></h3>
+                <h3>1<sup style="font-size: 20px"></sup></h3>
 
                 <p>Pending Meeting</p>
               </div>
@@ -93,7 +93,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>200<sup style="font-size: 20px"></sup></h3>
+                <h3>80<sup style="font-size: 20px"></sup></h3>
 
                 <p>Total Employee</p>
               </div>
@@ -123,7 +123,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>400</h3>
+                <h3>200</h3>
 
                 <p>Total Physical Location</p>
               </div>
@@ -161,8 +161,8 @@
             <div class="card">
               <div class="card-header ui-sortable-handle" style="cursor: move;">
                 <h3 class="card-title">
-                  <i class="ion ion-clipboard mr-1"></i>
-                  Total Meeting
+                <i class="far fa-comments"></i>
+                  Total Meeting Notification
                 </h3>
 
                 <div class="card-tools">
@@ -190,7 +190,7 @@
                       <label for="todoCheck1"></label>
                     </div>
                     <!-- todo text -->
-                    <span class="text">General Meeting with this employees</span>
+                    <span class="text">Will be discussed about sports.</span>
                     <!-- Emphasis label -->
                     <small class="badge badge-danger"><i class="far fa-clock"></i> 3 hours</small>
                     <!-- General tools such as edit or delete-->
@@ -208,7 +208,7 @@
                       <input type="checkbox" value="" name="todo2" id="todoCheck2">
                       <label for="todoCheck2"></label>
                     </div>
-                    <span class="text">Discussion Meeting</span>
+                    <span class="text">Discussion meeting with ministry</span>
                     <small class="badge badge-info"><i class="far fa-clock"></i> 4 hours</small>
                     <div class="tools">
                       <i class="fas fa-edit"></i>
@@ -224,7 +224,7 @@
                       <input type="checkbox" value="" name="todo3" id="todoCheck3">
                       <label for="todoCheck3"></label>
                     </div>
-                    <span class="text">Staff Meeting</span>
+                    <span class="text">Staff Meeting will be discussed</span>
                     <small class="badge badge-warning"><i class="far fa-clock"></i> 1 day</small>
                     <div class="tools">
                       <i class="fas fa-edit"></i>
@@ -240,7 +240,7 @@
                       <input type="checkbox" value="" name="todo4" id="todoCheck4">
                       <label for="todoCheck4"></label>
                     </div>
-                    <span class="text">Employee Meeting</span>
+                    <span class="text">Employee Meeting will discuss around 2 hour's.</span>
                     <small class="badge badge-success"><i class="far fa-clock"></i> 3 days</small>
                     <div class="tools">
                       <i class="fas fa-edit"></i>
@@ -296,8 +296,8 @@
             <div class="card">
               <div class="card-header ui-sortable-handle" style="cursor: move;">
                 <h3 class="card-title">
-                  <i class="ion ion-clipboard mr-1"></i>
-                  Up-coming Meeting
+                <i class="far fa-comments"></i>
+                  Up-coming Meeting Notification
                 </h3>
 
                 <div class="card-tools">
@@ -325,7 +325,7 @@
                       <label for="todoCheck1"></label>
                     </div>
                     <!-- todo text -->
-                    <span class="text">General Meeting</span>
+                    <span class="text">General meeting with authority</span>
                     <!-- Emphasis label -->
                     <small class="badge badge-danger"><i class="far fa-clock"></i> 2 mins</small>
                     <!-- General tools such as edit or delete-->
@@ -343,7 +343,7 @@
                       <input type="checkbox" value="" name="todo2" id="todoCheck2">
                       <label for="todoCheck2"></label>
                     </div>
-                    <span class="text">Employee Meeting</span>
+                    <span class="text">Arif won't come in office today</span>
                     <small class="badge badge-info"><i class="far fa-clock"></i> 4 hours</small>
                     <div class="tools">
                       <i class="fas fa-edit"></i>

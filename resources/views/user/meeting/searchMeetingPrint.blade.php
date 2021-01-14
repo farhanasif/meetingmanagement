@@ -18,9 +18,9 @@
                     <tr role="row" class="odd">
                         <td class="dtr-control sorting_1">1</td>
                         <td>HR1</td>
-                        <td>fgfgf</td>
+                        <td>Kamrul</td>
                         <td>VAS Meeting</td>
-                        <td>15-01-2021</td>
+                        <td>15 Jan 2021</td>
                         <td>4:30pm</td>
                         <td>VAS Room 1</td>
                         <td>

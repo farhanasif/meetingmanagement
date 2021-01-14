@@ -8,7 +8,7 @@
         <a href="index3.html" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Coordination</a>
+        <a href="#" class="nav-link text-dark">Office of the Secretary</a>
       </li>
     </ul>
 
@@ -98,7 +98,7 @@
             <a class="dropdown-item" href="{{route('adminProfile')}}">Profile &nbsp;&nbsp;<i class="nav-icon fas fa-user text-orange pull-right"></i>
             </a>
             <a class="dropdown-item" href="{{route('adminSettings')}}">Settings &nbsp;&nbsp;<i class="nav-icon fas fa-edit"></i>
-            <a class="dropdown-item" href="#" onclick="document.getElementById('admin-logout').submit()"> Log Out<i class="fa fa-sign-out pull-right"></i></a>
+            <a class="dropdown-item" href="#" onclick="document.getElementById('admin-logout').submit()"> Log Out &nbsp;&nbsp;<i class="fas fa-sign-out-alt"></i></a>
             <form id="admin-logout" action="{{route('admin.logout')}}" method="post" style="display: none">
               @csrf
             </form>
