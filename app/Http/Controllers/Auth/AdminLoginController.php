@@ -45,7 +45,7 @@ class AdminLoginController extends Controller
            }else{
                $this->logout($request);
            }
-           return redirect('/admin/login')
+           return redirect('/')
                ->withInput($request->only('email'))
                ->withErrors($this->errors);
         }
@@ -70,6 +70,6 @@ class AdminLoginController extends Controller
     public function logout(Request $request){
         $this->guard()->logout();
         $request->session()->invalidate();
-        return $this->loggedOut($request) ?: redirect('/admin/login');
+        return $this->loggedOut($request) ?: redirect('/');
     }
 }

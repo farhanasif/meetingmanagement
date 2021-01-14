@@ -3,7 +3,7 @@
     <a href="index3.html" class="brand-link">
       <img src="{{asset('admin/css/dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">Entertech</span>
+      <span class="brand-text font-weight-light">Coordination</span>
     </a>
 
     <!-- Sidebar -->
@@ -35,7 +35,7 @@
           
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-user-graduate text-red"></i>
+            <i class="far fa-handshake"></i>
               <p>
                  My Meetings
                 <i class="fas fa-angle-left right"></i>
@@ -65,7 +65,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-credit-card text-blue"></i>
+            <i class="far fa-handshake"></i>
               <p>
                  Meetings
                 <i class="fas fa-angle-left right"></i>
@@ -73,19 +73,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{route('addMeeting')}}" class="nav-link">
+                <a href="{{route('show.form')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add Meeting</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('viewMeeting')}}" class="nav-link">
+                <a href="{{route('adminViewMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View Meeting</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('viewPreviousMeeting')}}" class="nav-link">
+                <a href="{{route('viewPreviousMeetingAdmin')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View Previous Meeting</p>
                 </a>
@@ -119,7 +119,7 @@
           
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-chart-pie"></i>
+            <i class="fas fa-street-view"></i>
               <p>
                 physical locations
                 <i class="fas fa-angle-left right"></i>
@@ -188,9 +188,9 @@
               </li>
             </ul>
           </li>
-          @endif
+        @endif
           
-          @if(auth('system_admin')->user()->role=='user')
+        @if(auth('system_admin')->user()->role=='user')
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                <li class="nav-item has-treeview menu-open">
@@ -204,10 +204,10 @@
           
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-user-graduate text-red"></i>
+            <i class="far fa-handshake"></i>
               <p>
                  Meetings
-                <i class="fas fa-angle-left right"></i>
+                
               </p>
             </a>
             <ul class="nav nav-treeview" style="display: none;">
@@ -270,7 +270,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-list-alt text-warning"></i>
+            <i class="nav-icon fas fa-user-tie text-blue"></i>
               <p>
                  All Users
                 <i class="fas fa-angle-left right"></i>
@@ -294,7 +294,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tree"></i>
+            <i class="nav-icon fas fa-credit-card text-orange"></i>
               <p>
                 Equipment
                 <i class="fas fa-angle-left right"></i>
@@ -324,7 +324,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-list-alt text-warning"></i>
+            <i class="fas fa-street-view"></i>
               <p>
                  physical locations 
                 <i class="fas fa-angle-left right"></i>
@@ -345,9 +345,7 @@
               </li>
             </ul>
           </li>
-
-          @endif
-          
+        @endif
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

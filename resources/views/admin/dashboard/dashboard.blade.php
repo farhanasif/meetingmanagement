@@ -31,14 +31,14 @@
         <div class="row">
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-info">
+            <div class="small-box bg-success">
               <div class="inner">
                 <h3>5</h3>
 
-                <p>Total Meeting</p>
+                <p>Today's Meeting</p>
               </div>
               <div class="icon">
-                <i class="ion ion-bag"></i>
+              <i class="far fa-handshake"></i>
               </div>
               <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -48,12 +48,57 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>3<sup style="font-size: 20px">%</sup></h3>
+                <h3>10<sup style="font-size: 20px"></sup></h3>
 
                 <p>Upcoming Meeting</p>
               </div>
               <div class="icon">
-                <i class="ion ion-stats-bars"></i>
+              <i class="far fa-handshake"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-success">
+              <div class="inner">
+                <h3>300<sup style="font-size: 20px"></sup></h3>
+
+                <p>Previous Meeting</p>
+              </div>
+              <div class="icon">
+              <i class="far fa-handshake"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-success">
+              <div class="inner">
+                <h3>2<sup style="font-size: 20px"></sup></h3>
+
+                <p>Pending Meeting</p>
+              </div>
+              <div class="icon">
+              <i class="far fa-handshake"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-success">
+              <div class="inner">
+                <h3>200<sup style="font-size: 20px"></sup></h3>
+
+                <p>Total Employee</p>
+              </div>
+              <div class="icon">
+              <i class="fas fa-user"></i>
               </div>
               <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -61,9 +106,9 @@
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-warning">
+            <div class="small-box bg-success">
               <div class="inner">
-                <h3>200</h3>
+                <h3>50</h3>
 
                 <p>Total User</p>
               </div>
@@ -73,17 +118,33 @@
               <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
+
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-success">
+              <div class="inner">
+                <h3>400</h3>
+
+                <p>Total Physical Location</p>
+              </div>
+              <div class="icon">
+              <i class="fal fa-globe-asia"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-danger">
+            <div class="small-box bg-success">
               <div class="inner">
                 <h3>65</h3>
 
                 <p>Total Equipment</p>
               </div>
               <div class="icon">
-                <i class="ion ion-pie-graph"></i>
+              <i class="fab fa-product-hunt"></i>
               </div>
               <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>

@@ -1,4 +1,4 @@
-@extends('user.master')
+@extends('admin.master')
 @section('title', 'User Profile')
 
 @section('stylesheet')

@@ -79,7 +79,7 @@ class LoginController extends Controller
             }else{
                 $this->logout($request);
             }
-            return redirect('/user/login')
+            return redirect('/')
                 ->withInput($request->only('email'))
                 ->withErrors($this->errors);
         }
@@ -91,6 +91,6 @@ class LoginController extends Controller
     {
         $this->guard()->logout();
         $request->session()->invalidate();
-        return $this->loggedOut($request) ?: redirect('/user/login');
+        return $this->loggedOut($request) ?: redirect('/');
     }
 }

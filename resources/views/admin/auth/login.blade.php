@@ -59,7 +59,7 @@
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+            <button type="submit" class="btn btn-success btn-block">Sign In</button>
           </div>
           <!-- /.col -->
         </div>
@@ -67,10 +67,10 @@
 
       <div class="social-auth-links text-center mb-3">
         <p>- OR -</p>
-        <button id="adminId" href="#" class="btn btn-block btn-primary">
+        <button id="adminId" href="#" class="btn btn-block btn-success">
           <i class="fab fa-men mr-2"></i> Login As Admin
         </button>
-        <button id="userId" href="#" class="btn btn-block btn-danger">
+        <button id="userId" href="#" class="btn btn-block btn-success">
           <i class="fab fa--plus mr-2"></i> Login As User
         </button>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

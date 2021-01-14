@@ -34,7 +34,7 @@
             </div>
             <!-- /.card -->
 
-            <div class="card card-info">
+            <div class="card card-success">
               <div class="card-header">
                 <h3 class="card-title">Create user</h3>
               </div>
@@ -131,7 +131,7 @@
                   </div>
                   <div class="card-footer">
                     <a href="{{route('user.datatable')}}" type="submit" class="btn btn-warning">Cancel</a>
-                    <button type="submit" class="btn btn-info float-right">Submit</button>
+                    <button type="submit" class="btn btn-success float-right">Submit</button>
                   </div>
                 </form>
               </div>
