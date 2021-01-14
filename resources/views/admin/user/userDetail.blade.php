@@ -36,7 +36,7 @@
                 <div class="col-12">
                   <h4>
                     <i class="fas fa-globe"></i> user details.</br>
-                    <small style="color:blue;">Farukh Ahmed</small><hr>
+                    <small style="color:green;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Farukh Ahmed</small><hr>
                   </h4>
                 </div>
                 <!-- /.col -->

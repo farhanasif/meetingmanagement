@@ -20,7 +20,7 @@
                         <td>HR1</td>
                         <td>Ok</td>
                         <td>VAS Meeting</td>
-                        <td>15-01-2021</td>
+                        <td>15 Jan 2021</td>
                         <td>4:30pm</td>
                         <td>VAS Room 1</td>
                         <td>

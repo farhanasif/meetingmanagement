@@ -1,4 +1,4 @@
-@extends('user.master')
+@extends('admin.master')
 @section('title', 'View Meeting Details')
 
 @section('stylesheet')
@@ -36,7 +36,7 @@
                 <div class="col-12">
                   <h4>
                     <i class="fas fa-globe"></i> Discussion Meeting With Executive Officer.</br>
-                    <small style="color:green;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Date: 10 Jan 2021</small><hr>
+                    <small style="color:blue;color:green;"> &nbsp;&nbsp; Date: 10 Jan 2021</small><hr>
                   </h4>
                 </div>
                 <!-- /.col -->
@@ -47,7 +47,7 @@
               <div class="row">
                 <!-- accepted payments column -->
                 <!-- /.col -->
-                <p>&nbsp; In this meeting, we will be discussed about the office purposes. So, guys you must to come in the office. Duration time: 11:30 pm - 1:30 pm</p><br>
+                <p>&nbsp;&nbsp;In this meeting, we will be discussed about the office purposes. So, guys you must to come in the office. Duration time: 11:30 pm - 1:30 pm</p><br>
                 <!-- /.col -->
               </div>
               <!-- /.row -->

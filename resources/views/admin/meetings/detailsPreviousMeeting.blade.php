@@ -36,7 +36,7 @@
                 <div class="col-12">
                   <h4>
                     <i class="fas fa-globe"></i> Previous Meeting discussion.</br>
-                    <small style="color:blue;">Date: 10-01-2021</small><hr>
+                    <small style="color:green;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Date: 10 Jan 2021</small><hr>
                   </h4>
                 </div>
                 <!-- /.col -->
@@ -105,23 +105,55 @@
 
                   
                   <div class="row">
-                    <div class="col-sm-3">
-                      <!-- select -->
-                      <div class="form-group">
-                        <button type="button" class="btn btn-primary" style="margin-right: 5px;">
-                            <i class="fas fa-download"></i> Download Agenda
-                        </button>
+                   <div class="col-sm-3">
+                    <div class="form-group">
+                        <label>Meeting Minutes</label>
+                        <p>2 hour's</p>
                       </div>
                     </div>
                     <div class="col-sm-3">
                     <div class="form-group">
-                    <button type="button" class="btn btn-primary" style="margin-right: 5px;">
-                        <i class="fas fa-download"></i> Download Office Notice
-                    </button>
+                        <label>Description</label>
+                        <p>There are many reasons</p>
                       </div>
                     </div>
+
+                    <div class="col-sm-3">
+                        <!-- select -->
+                      <div class="form-group">
+                           <button type="button" class="btn btn-success" style="margin-right: 5px;">
+                              <i class="fas fa-download"></i> Download Agenda
+                          </button>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="form-group">
+                          <button type="button" class="btn btn-success" style="margin-right: 5px;">
+                              <i class="fas fa-download"></i> Download Office Notice
+                          </button>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                              <label> Comment</label>
+                          
+                              <form action="#" method="post">
+                                <div class="input-group">
+                                  <input type="text" name="message" placeholder="Type Message ..." class="form-control">
+                                  <span class="input-group-append">
+                                    <button type="button" class="btn btn-warning">Send</button>
+                                  </span>
+                                </div>
+                              </form>
+                            </div>
+                        </div>
+                     </div>
                     
-                  </div>
+                  </div> 
+
+                  
                 </div>
 
                 </div>

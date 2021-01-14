@@ -1,9 +1,9 @@
 <aside class="main-sidebar elevation-4 sidebar-light-teal">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="{{asset('admin/css/dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
-           style="opacity: .8">
-      <span class="brand-text font-weight-light">Coordination</span>
+      <img src="{{asset('admin/images/govment.png')}}" class="brand-image img-circle elevation-3"
+           style="opacity: .9">
+      <span class="brand-text font-weight-light">Meeting Management</span>
     </a>
 
     <!-- Sidebar -->
@@ -97,23 +97,23 @@
                 </a>
               </li> -->
               <li class="nav-item">
-                <a href="{{route('userMeeting')}}" class="nav-link">
+                <a href="{{route('meeting.datatable')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Meeting</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('viewPendingMeeting')}}" class="nav-link">
+                <a href="{{route('viewAdminMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View Pending Meeting</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a href="{{route('searchPendingMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Search Pending Meeting</p>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </li> 
           

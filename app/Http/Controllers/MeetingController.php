@@ -37,4 +37,12 @@ class MeetingController extends Controller
     public function AdminViewMeeting(){
         return view('admin.meetings.viewMeeting');
     }
+
+    public function myMeetingDetails(){
+        return view('admin.meetings.myMeetingDetails');
+    }
+
+    public function adminViewPendingMeeting(){
+        return view('admin.meetings.viewPendingMeeting');
+    }
 }
