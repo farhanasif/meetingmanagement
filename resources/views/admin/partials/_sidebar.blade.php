@@ -1,9 +1,9 @@
 <aside class="main-sidebar elevation-4 sidebar-light-teal">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="{{asset('admin/images/govment.png')}}" class="brand-image img-circle elevation-3"
+      <img src="{{asset('admin/images/govbd.png')}}" class="brand-image img-circle elevation-3"
            style="opacity: .9">
-      <span class="brand-text font-weight-light">Meeting Management</span>
+      <span class="brand-text font-weight-bold text-success" style="margin-left: -4px;">Meeting Management</span>
     </a>
 
     <!-- Sidebar -->
@@ -32,7 +32,7 @@
               </p>
             </a>
           </li>
-          
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
             <i class="far fa-handshake"></i>
@@ -115,8 +115,8 @@
                 </a>
               </li> -->
             </ul>
-          </li> 
-          
+          </li>
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
             <i class="fas fa-street-view"></i>
@@ -140,7 +140,7 @@
               </li>
             </ul>
           </li>
-         
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
             <i class="nav-icon fas fa-user-tie text-blue"></i>
@@ -189,7 +189,7 @@
             </ul>
           </li>
         @endif
-          
+
         @if(auth('system_admin')->user()->role=='user')
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
@@ -201,13 +201,13 @@
               </p>
             </a>
           </li>
-          
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
             <i class="far fa-handshake"></i>
               <p>
                  Meetings
-                
+
               </p>
             </a>
             <ul class="nav nav-treeview" style="display: none;">
@@ -326,7 +326,7 @@
             <a href="#" class="nav-link">
             <i class="fas fa-street-view"></i>
               <p>
-                 physical locations 
+                 physical locations
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
