@@ -13,7 +13,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-open">
-            <a href="{{route('dashboard')}}" class="nav-link active">
+            <a href="{{route('dashboard')}}" class="nav-link active" style="background-color: #28A745;">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -89,7 +89,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-list-alt text-warning"></i>
+            <i class="nav-icon fas fa-list-alt text-green"></i>
               <p>
                  All Users
                 <i class="fas fa-angle-left right"></i>
@@ -113,7 +113,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tree"></i>
+              <i class="nav-icon fas fa-tree text-green"></i>
               <p>
                 Equipment
                 <i class="fas fa-angle-left right"></i>
@@ -128,7 +128,7 @@
               </li> -->
               <li class="nav-item">
                 <a href="{{route('eqiupments.datatable')}}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                  <i class="far fa-circle nav-icon text-green"></i>
                   <p>All Equipment</p>
                 </a>
               </li>
@@ -143,7 +143,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-list-alt text-warning"></i>
+            <i class="nav-icon fas fa-list-alt text-green"></i>
               <p>
                  physical locations
                 <i class="fas fa-angle-left right"></i>
