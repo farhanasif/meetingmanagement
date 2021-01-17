@@ -1,5 +1,5 @@
-@extends('admin.master')
-@section('title', 'View All Pending Meeting')
+@extends('Admin.master')
+@section('title', 'View Previous All Meeting')
 
 @section('stylesheet')
 
@@ -11,12 +11,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">View All Pending Meeting</h1>
+            <h1 class="m-0 text-dark">View Pending All Meeting</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Dashboard Of View Pending Meeting</li>
+              <li class="breadcrumb-item active">Dashboard Of View Previous Meeting</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -36,7 +36,7 @@
 
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">View All Pending Meeting</h3>
+                <h3 class="card-title">View All Previous Meeting</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -44,8 +44,8 @@
                   <thead>
                   <tr role="row">
                     <th class="sorting" aria-controls="example1">Serial No</th>
-                    <th class="sorting" aria-controls="example1">Company Name</th>
-                    <th class="sorting" aria-controls="example1">Employee Name</th>
+                    <th class="sorting" aria-controls="example1">Organization</th>
+                    <th class="sorting" aria-controls="example1">Perticipants</th>
                     <th class="sorting" aria-controls="example1">Meeting Title</th>
                     <th class="sorting" aria-controls="example1">Date</th>
                     <th class="sorting_asc" aria-controls="example1">Time</th>
@@ -56,42 +56,51 @@
                   <tbody>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">1</td>
-                    <td>HR1</td>
-                    <td>Kamru<br>Rahim<br>Employee1</td>
-                    <td>Group Meeting</td>
-                    <td>15 Jan 2021</td>
+                    <td>SPR1</td>
+                    <td><ul>
+                        <li>Md. Sayed Ali | Deputy Secretary | Youth </li>
+                        <li>Shalina Akter | Assistant Secretary | Coordination</li>
+                        <li>S. M. Humayun Kabir | Assistant Secretary | Budget</li>
+                        <li>Md. Abdur Roshid | Assistant Secretary | Coordination</li>
+                    </ul></td>
+                    <td>SPR Meeting</td>
+                    <td>10 Feb 2021</td>
                     <td>4:30pm</td>
-                    <td>VAS Room 1</td>
-                    <td>
-                      <button class="btn btn-danger btn-xs">Pending</button>
-                    </td>
+                    <td>SPR Room 1</td>
+                    <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">2</td>
-                    <td>HR1</td>
-                    <td>Kamrul<br>Rahim<br>Employee1</td>
-                    <td>General Meeting</td>
-                    <td>16 Jan 2021</td>
-                    <td>4:30pm</td>
-                    <td>RVAS Room 1</td>
-                    <td>
-                      <button class="btn btn-success btn-xs">Approved</button>
-                    </td>
+                    <td>SRT 1</td>
+                    <td><ul>
+                        <li>Md. Sayed Ali | Deputy Secretary | Youth </li>
+                        <li>Shalina Akter | Assistant Secretary | Coordination</li>
+                        <li>S. M. Humayun Kabir | Assistant Secretary | Budget</li>
+                        <li>Md. Abdur Roshid | Assistant Secretary | Coordination</li>
+                    </ul></td>
+                    <td>SRT Meeting</td>
+                    <td>11 Feb 2021</td>
+                    <td>2:30pm</td>
+                    <td>SRT Room 1</td>
+                    <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">3</td>
                     <td>HR1</td>
-                    <td>Neel Ahmed<br>Razzak<br>Kader</td>
+                    <td><ul>
+                        <li>Md. Sayed Ali | Deputy Secretary | Youth </li>
+                        <li>Shalina Akter | Assistant Secretary | Coordination</li>
+                        <li>S. M. Humayun Kabir | Assistant Secretary | Budget</li>
+                        <li>Md. Abdur Roshid | Assistant Secretary | Coordination</li>
+                    </ul></td>
                     <td>VAS Meeting</td>
-                    <td>17 Jan 2021</td>
-                    <td>3:30pm</td>
-                    <td>VTAS Room 1</td>
-                    <td>
-                    <button class="btn btn-danger btn-xs">Pending</button>
-                    </td>
+                    <td>12 Feb 2021</td>
+                    <td>10:30am</td>
+                    <td>VAS Room 1</td>
+                    <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   </tbody>
-                 
+
                 </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="example1_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="example1_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="example1_previous"><a href="#" aria-controls="example1" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="example1" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="example1" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="example1" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item "><a href="#" aria-controls="example1" data-dt-idx="4" tabindex="0" class="page-link">4</a></li><li class="paginate_button page-item "><a href="#" aria-controls="example1" data-dt-idx="5" tabindex="0" class="page-link">5</a></li><li class="paginate_button page-item "><a href="#" aria-controls="example1" data-dt-idx="6" tabindex="0" class="page-link">6</a></li><li class="paginate_button page-item next" id="example1_next"><a href="#" aria-controls="example1" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li></ul></div></div></div></div>
               </div>
               <!-- /.card-body -->
@@ -111,7 +120,7 @@
 <script>
   $(function () {
     $("#example1").DataTable();
-   
+
       "paging": true,
       "lengthChange": false,
       "searching": false,

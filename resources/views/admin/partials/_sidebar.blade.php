@@ -25,8 +25,8 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-open">
-            <a href="{{route('dashboard')}}" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+            <a href="{{route('dashboard')}}" class="nav-link active" style="background-color: #28A745;">
+              <i class="nav-icon fas fa-tachometer-alt text-white   "></i>
               <p>
                 Dashboard
               </p>
@@ -35,7 +35,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="far fa-handshake"></i>
+            <i class="nav-icon far fa-envelope text-green"></i>
               <p>
                  My Meetings
                 <i class="fas fa-angle-left right"></i>
@@ -51,7 +51,7 @@
               <li class="nav-item">
                 <a href="{{route('meeting.schudule')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Meeting schudules</p>
+                  <p>Meeting schudules <span class="badge badge-info right">2</span></p>
                 </a>
               </li>
               <!-- <li class="nav-item">
@@ -65,7 +65,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="far fa-handshake"></i>
+            <i class="nav-icon far fa-calendar-alt text-green"></i>
               <p>
                  Meetings
                 <i class="fas fa-angle-left right"></i>
@@ -119,9 +119,9 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="fas fa-street-view"></i>
+            <i class="nav-icon fas fa-columns text-green"></i>
               <p>
-                physical locations
+                 physical locations
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -143,7 +143,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-user-tie text-blue"></i>
+            <i class="nav-icon fas fa-user-tie text-green"></i>
               <p>
                 All Users
                 <i class="fas fa-angle-left right"></i>
@@ -167,7 +167,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-credit-card text-orange"></i>
+            <i class="nav-icon fas fa-credit-card text-green"></i>
               <p>
                 All Equipment
                 <i class="fas fa-angle-left right"></i>
