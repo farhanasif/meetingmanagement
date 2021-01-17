@@ -8,7 +8,7 @@
         <a href="index3.html" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <h3 class="text-success pt-1"><b>Sports -1, MoYS</b></h3>
+        <h3 class="text-success pt-1"><b>Office of the Secretary, MoYS</b></h3>
       </li>
     </ul>
 
