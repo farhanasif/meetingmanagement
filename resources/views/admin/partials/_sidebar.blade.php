@@ -194,8 +194,8 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                <li class="nav-item has-treeview menu-open">
-            <a href="{{route('user.dashboard')}}" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+            <a href="{{route('dashboard')}}" class="nav-link active" style="background-color: #28A745;">
+              <i class="nav-icon fas fa-tachometer-alt text-white   "></i>
               <p>
                 Dashboard
               </p>
@@ -204,65 +204,53 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="far fa-handshake"></i>
+            <i class="nav-icon far fa-calendar-alt text-green"></i>
               <p>
                  Meetings
-
+                <i class="fas fa-angle-left right"></i>
               </p>
             </a>
-            <ul class="nav nav-treeview" style="display: none;">
+            <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{route('addMeeting')}}" class="nav-link">
+                <a href="{{route('show.form')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add Meeting</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('viewMeeting')}}" class="nav-link">
+                <a href="{{route('adminViewMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View Meeting</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('viewPreviousMeeting')}}" class="nav-link">
+                <a href="{{route('viewPreviousMeetingAdmin')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View Previous Meeting</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a href="{{route('searchPreviousMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Search Previous Meeting</p>
                 </a>
-              </li>
+              </li> -->
               <li class="nav-item">
-                <a href="{{route('userMeeting')}}" class="nav-link">
+                <a href="{{route('meeting.datatable')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Meeting</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('viewPendingMeeting')}}" class="nav-link">
+                <a href="{{route('viewAdminMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View Pending Meeting</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a href="{{route('searchPendingMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Search Pending Meeting</p>
-                </a>
-              </li>
-              <!-- <li class="nav-item">
-                <a href="{{route('meeting.schudule')}}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Meeting schudules</p>
-                </a>
-              </li> -->
-              <!-- <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Meeting Room Search</p>
                 </a>
               </li> -->
             </ul>

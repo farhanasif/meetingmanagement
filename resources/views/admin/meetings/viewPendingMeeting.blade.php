@@ -1,4 +1,4 @@
-@extends('Admin.master')
+@extends('admin.master')
 @section('title', 'View Previous All Meeting')
 
 @section('stylesheet')
