@@ -201,7 +201,7 @@
               </p>
             </a>
           </li>
-
+          
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
             <i class="nav-icon far fa-calendar-alt text-green"></i>
@@ -211,18 +211,6 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="{{route('meeting.schudule')}}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Meeting schudules <span class="badge badge-info right">2</span></p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="{{route('meeting.datatable')}}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>My Meeting</p>
-                </a>
-              </li>
               <li class="nav-item">
                 <a href="{{route('show.form')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
@@ -247,7 +235,12 @@
                   <p>Search Previous Meeting</p>
                 </a>
               </li> -->
-
+              <li class="nav-item">
+                <a href="{{route('meeting.datatable')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Meeting</p>
+                </a>
+              </li>
               <li class="nav-item">
                 <a href="{{route('viewAdminMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
