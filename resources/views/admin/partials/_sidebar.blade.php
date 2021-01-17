@@ -211,6 +211,19 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
+            <li class="nav-item">
+                <a href="{{route('meeting.datatable')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Meeting</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('meeting.schudule')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Meeting schudules <span class="badge badge-info right">2</span></p>
+                </a>
+              </li>
+              
               <li class="nav-item">
                 <a href="{{route('show.form')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
@@ -260,21 +273,21 @@
             <a href="#" class="nav-link">
             <i class="nav-icon fas fa-user-tie text-green"></i>
               <p>
-                 All Users
+                All Users
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview" style="display: none;">
-            <li class="nav-item">
-                <a href="{{url('all/users')}}" class="nav-link">
+              <li class="nav-item">
+                <a href="{{route('user')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>All Users</p>
+                  <p>Add User</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('searchUser')}}" class="nav-link">
+                <a href="{{route('user.datatable')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Search Users</p>
+                  <p>See All Users</p>
                 </a>
               </li>
             </ul>
