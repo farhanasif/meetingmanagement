@@ -43,50 +43,50 @@
                 <div id="example1_wrapper" class="dataTables_wrapper dt-bootstrap4"><div class="row"><div class="col-sm-12 col-md-6"><div class="dt-buttons btn-group flex-wrap">               <button class="btn btn-secondary buttons-copy buttons-html5" tabindex="0" aria-controls="example1" type="button"><span>Copy</span></button> <button class="btn btn-secondary buttons-csv buttons-html5" tabindex="0" aria-controls="example1" type="button"><span>CSV</span></button> <button class="btn btn-secondary buttons-excel buttons-html5" tabindex="0" aria-controls="example1" type="button"><span>Excel</span></button> <button class="btn btn-secondary buttons-pdf buttons-html5" tabindex="0" aria-controls="example1" type="button"><span>PDF</span></button> <button class="btn btn-secondary buttons-print" tabindex="0" aria-controls="example1" type="button"><span>Print</span></button> <div class="btn-group"><button class="btn btn-secondary buttons-collection dropdown-toggle buttons-colvis" tabindex="0" aria-controls="example1" type="button" aria-haspopup="true" aria-expanded="false"><span>Column visibility</span></button></div> </div></div><div class="col-sm-12 col-md-6"><div id="example1_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="example1"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="example1" class="table table-bordered table-striped dataTable dtr-inline" role="grid" aria-describedby="example1_info">
                   <thead>
                   <tr role="row">
-                    <th class="sorting" aria-controls="example1">Serial No</th>
-                    <th class="sorting" aria-controls="example1">Organization</th>
-                    <th class="sorting" aria-controls="example1">Perticipants</th>
-                    <th class="sorting" aria-controls="example1">Meeting Title</th>
+                    <th class="sorting" aria-controls="example1">Meeting ID</th>
+                    <th class="sorting" aria-controls="example1">Organization Name</th>
+                    <th class="sorting" aria-controls="example1">Perticipante</th>
+                    <th class="sorting" aria-controls="example1">Main Subject</th>
                     <th class="sorting" aria-controls="example1">Date</th>
                     <th class="sorting_asc" aria-controls="example1">Time</th>
-                    <th class="sorting" aria-controls="example1">Meeting Room</th>
+                    <th class="sorting" aria-controls="example1">Preferred location</th>
                     <th class="sorting" aria-controls="example1">Action</th>
                   </tr>
                   </thead>
                   <tbody>
                   <tr role="row" class="odd">
-                    <td class="dtr-control sorting_1">1</td>
-                    <td>SPR1</td>
+                    <td class="dtr-control sorting_1">MM90870</td>
+                    <td>Sports 1</td>
                     <td><ul>
                         <li>Md. Sayed Ali | Deputy Secretary | Youth </li>
                         <li>Shalina Akter | Assistant Secretary | Coordination</li>
                         <li>S. M. Humayun Kabir | Assistant Secretary | Budget</li>
                         <li>Md. Abdur Roshid | Assistant Secretary | Coordination</li>
                     </ul></td>
-                    <td>SPR Meeting</td>
+                    <td>Gerneral meeting</td>
                     <td>10 Jan 2021</td>
-                    <td>4:30pm</td>
-                    <td>SPR Room 1</td>
+                    <td>02:30pm</td>
+                    <td>Conference Room - 1</td>
                     <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
-                    <td class="dtr-control sorting_1">2</td>
-                    <td>SRT 1</td>
+                    <td class="dtr-control sorting_1">MM90878</td>
+                    <td>Sports 2</td>
                     <td><ul>
                         <li>Md. Sayed Ali | Deputy Secretary | Youth </li>
                         <li>Shalina Akter | Assistant Secretary | Coordination</li>
                         <li>S. M. Humayun Kabir | Assistant Secretary | Budget</li>
                         <li>Md. Abdur Roshid | Assistant Secretary | Coordination</li>
                     </ul></td>
-                    <td>SRT Meeting</td>
-                    <td>11 Jan 2021</td>
-                    <td>2:30pm</td>
-                    <td>SRT Room 1</td>
+                    <td>Group Meeting discussion</td>
+                    <td>14 Jan 2021</td>
+                    <td>02:30 pm</td>
+                    <td>Conference Room - 1</td>
                     <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
-                    <td class="dtr-control sorting_1">3</td>
-                    <td>HR1</td>
+                    <td class="dtr-control sorting_1">MM90778</td>
+                    <td>MoYS</td>
                     <td><ul>
                         <li>Md. Sayed Ali | Deputy Secretary | Youth </li>
                         <li>Shalina Akter | Assistant Secretary | Coordination</li>
@@ -94,9 +94,39 @@
                         <li>Md. Abdur Roshid | Assistant Secretary | Coordination</li>
                     </ul></td>
                     <td>VAS Meeting</td>
-                    <td>12 Jan 2021</td>
-                    <td>5:30pm</td>
-                    <td>VAS Room 1</td>
+                    <td>15 Jan 2021</td>
+                    <td>11:00 am</td>
+                    <td>Conference Room - 1</td>
+                    <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
+                  </tr>
+                  <tr role="row" class="odd">
+                    <td class="dtr-control sorting_1">MM91890</td>
+                    <td>MoYS</td>
+                    <td><ul>
+                        <li>Md. Sayed Ali | Deputy Secretary | Youth </li>
+                        <li>Shalina Akter | Assistant Secretary | Coordination</li>
+                        <li>S. M. Humayun Kabir | Assistant Secretary | Budget</li>
+                        <li>Md. Abdur Roshid | Assistant Secretary | Coordination</li>
+                    </ul></td>
+                    <td>Simple Meeting discussion</td>
+                    <td>15 Jan 2021</td>
+                    <td>04:30pm</td>
+                    <td>Conference Room - 1</td>
+                    <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
+                  </tr>
+                  <tr role="row" class="odd">
+                    <td class="dtr-control sorting_1">MM90871</td>
+                    <td>MoYS</td>
+                    <td><ul>
+                        <li>Md. Sayed Ali | Deputy Secretary | Youth </li>
+                        <li>Shalina Akter | Assistant Secretary | Coordination</li>
+                        <li>S. M. Humayun Kabir | Assistant Secretary | Budget</li>
+                        <li>Md. Abdur Roshid | Assistant Secretary | Coordination</li>
+                    </ul></td>
+                    <td>Association discussion</td>
+                    <td>11 Jan 2021</td>
+                    <td>01:30pm</td>
+                    <td>Conference Room - 1</td>
                     <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   </tbody>

@@ -212,6 +212,18 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
+                <a href="{{route('meeting.schudule')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Meeting schudules <span class="badge badge-info right">2</span></p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('meeting.datatable')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>My Meeting</p>
+                </a>
+              </li>
+              <li class="nav-item">
                 <a href="{{route('show.form')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add Meeting</p>
@@ -235,12 +247,7 @@
                   <p>Search Previous Meeting</p>
                 </a>
               </li> -->
-              <li class="nav-item">
-                <a href="{{route('meeting.datatable')}}" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Meeting</p>
-                </a>
-              </li>
+
               <li class="nav-item">
                 <a href="{{route('viewAdminMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
@@ -258,7 +265,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-user-tie text-blue"></i>
+            <i class="nav-icon fas fa-user-tie text-green"></i>
               <p>
                  All Users
                 <i class="fas fa-angle-left right"></i>
@@ -282,7 +289,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-credit-card text-orange"></i>
+            <i class="nav-icon fas fa-credit-card text-green"></i>
               <p>
                 Equipment
                 <i class="fas fa-angle-left right"></i>
@@ -312,7 +319,7 @@
 
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-            <i class="fas fa-street-view"></i>
+            <i class="nav-icon fas fa-columns text-green"></i>
               <p>
                  physical locations
                 <i class="fas fa-angle-left right"></i>
