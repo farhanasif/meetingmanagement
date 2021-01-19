@@ -107,3 +107,7 @@ Route::get('/physical/locationDetails','UserPhysicalLocationController@locationD
 
 //User settings
 Route::get('/user/setting','UserSettingController@index')->name('userSettings');
+
+//promotor meeting
+Route::get('/promotorMeeting','PromotorMeetingController@promotorMeeting')->name('promotorMeeting');
+Route::get('/promotor/meeting/details','PromotorMeetingController@pMeetingDetails')->name('promotorMeetingDetails');

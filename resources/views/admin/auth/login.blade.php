@@ -68,10 +68,13 @@
       <div class="social-auth-links text-center mb-3">
         <p>- OR -</p>
         <button id="adminId" href="#" class="btn btn-block btn-success">
-          <i class="fab fa-men mr-2"></i> Login As Admin
+          <i class="fas fa-user-shield"></i> Login As Admin
         </button>
         <button id="userId" href="#" class="btn btn-block btn-success">
-          <i class="fab fa--plus mr-2"></i> Login As User
+          <i class="fas fa-user-tie"></i> Login As User
+        </button>
+        <button id="promotorId" href="#" class="btn btn-block btn-success">
+          <i class="fas fa-ad"></i> Login As Moderator
         </button>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script> 
@@ -82,6 +85,11 @@
 
            $('#userId').on("click", function(){
              $("#Geeks").val("user@gmail.com");
+             $(".pass").val("123456");
+           });
+
+           $('#promotorId').on("click", function(){
+             $("#Geeks").val("moderator@gmail.com");
              $(".pass").val("123456");
            });
         </script>
