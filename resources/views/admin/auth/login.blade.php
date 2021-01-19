@@ -74,7 +74,7 @@
           <i class="fas fa-user-tie"></i> Login As User
         </button>
         <button id="promotorId" href="#" class="btn btn-block btn-success">
-          <i class="fas fa-ad"></i> Login As Promotor
+          <i class="fas fa-ad"></i> Login As Moderator
         </button>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script> 
@@ -89,7 +89,7 @@
            });
 
            $('#promotorId').on("click", function(){
-             $("#Geeks").val("promotor@gmail.com");
+             $("#Geeks").val("moderator@gmail.com");
              $(".pass").val("123456");
            });
         </script>
