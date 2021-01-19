@@ -161,10 +161,10 @@
                                 <div class="form-group">
                                     <label>Expected Equipment:</label>
                                     <ul>
-                                    <li>Printer | Epson 3565 | 9887</li>
-                                    <li>Speaker | Creative 9879C | 6890</li>
-                                    <li>Projector 1 | Canon 2233 | 7890</li>
-                                    <li>Route | Prolink 12D |  8990</li>
+                                    <li>Printer | Epson 3565 | 9887 &nbsp;&nbsp;<a href="#" class="btn btn-danger btn-xs text-white"><i class="fas fa-times"></i></a></li>
+                                    <li>Speaker | Creative 9879C | 6890 &nbsp;&nbsp;<a href="#" class="btn btn-danger btn-xs text-white"><i class="fas fa-times"></i></a></a></li>
+                                    <li>Projector 1 | Canon 2233 | 7890 &nbsp;&nbsp;<a href="#" class="btn btn-danger btn-xs text-white"><i class="fas fa-times"></i></a></a></li>
+                                    <li>Route | Prolink 12D |  8990 &nbsp;&nbsp;<a href="#" class="btn btn-danger btn-xs text-white"><i class="fas fa-times"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -186,8 +186,8 @@
                                 <div class="form-group">
                                     <label>Mediator</label>
                                     <ul>
-                                        <li>S. M. Humayun Kabir | Assistant Secretary | Budget &nbsp;&nbsp;<a href="#" class="btn btn-danger btn-xs text-white"><i class="fas fa-times"></i></a></li>
-                                        <li>Shalina Akter | Assistant Secretary | Coordination &nbsp;&nbsp;<a href="#" class="btn btn-danger btn-xs text-white"><i class="fas fa-times"></i></a></li>
+                                        <li>S. M. Humayun Kabir | Assistant Secretary | Budget</li>
+                                        <li>Shalina Akter | Assistant Secretary | Coordination </li>
                                     </ul>
                                 </div>
                             </div>

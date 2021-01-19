@@ -111,3 +111,4 @@ Route::get('/user/setting','UserSettingController@index')->name('userSettings');
 //promotor meeting
 Route::get('/promotorMeeting','PromotorMeetingController@promotorMeeting')->name('promotorMeeting');
 Route::get('/promotor/meeting/details','PromotorMeetingController@pMeetingDetails')->name('promotorMeetingDetails');
+Route::get('/promotorViewMeeting','PromotorMeetingController@promotorViewMeeting')->name('promotorViewMeeting');
