@@ -67,7 +67,7 @@
                     <td>10 Jan 2021</td>
                     <td>02:30pm</td>
                     <td>Conference Room - 1</td>
-                    <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
+                    <td><a href="{{route('promotorMeetingDetails')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">MM90878</td>
@@ -82,7 +82,7 @@
                     <td>14 Jan 2021</td>
                     <td>02:30 pm</td>
                     <td>Conference Room - 1</td>
-                    <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
+                    <td><a href="{{route('promotorMeetingDetails')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">MM90778</td>
@@ -97,7 +97,7 @@
                     <td>15 Jan 2021</td>
                     <td>11:00 am</td>
                     <td>Conference Room - 1</td>
-                    <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
+                    <td><a href="{{route('promotorMeetingDetails')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">MM91890</td>
@@ -112,7 +112,7 @@
                     <td>15 Jan 2021</td>
                     <td>04:30pm</td>
                     <td>Conference Room - 1</td>
-                    <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
+                    <td><a href="{{route('promotorMeetingDetails')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   <tr role="row" class="odd">
                     <td class="dtr-control sorting_1">MM90871</td>
@@ -127,7 +127,7 @@
                     <td>11 Jan 2021</td>
                     <td>01:30pm</td>
                     <td>Conference Room - 1</td>
-                    <td><a href="{{route('meeting.details')}}" class="btn btn-info btn-xs">Details</a></td>
+                    <td><a href="{{route('promotorMeetingDetails')}}" class="btn btn-info btn-xs">Details</a></td>
                   </tr>
                   </tbody>
 

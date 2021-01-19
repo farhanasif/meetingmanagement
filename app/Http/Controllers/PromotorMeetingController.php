@@ -10,10 +10,11 @@ class PromotorMeetingController extends Controller
         return view('promotor.meetings.my_meeting');
     }
 
-
-
-
     public function pMeetingDetails(){
         return view('promotor.meetings.detailsMeeting');
+    }
+
+    public function promotorViewMeeting(){
+        return view('promotor.meetings.viewMeeting');
     }
 }

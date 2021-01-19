@@ -389,13 +389,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('adminViewMeeting')}}" class="nav-link">
+                <a href="{{route('promotorViewMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View Meeting</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('viewPreviousMeetingAdmin')}}" class="nav-link">
+                <a href="{{route('promotorViewMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View Previous Meeting</p>
                 </a>
@@ -407,13 +407,13 @@
                 </a>
               </li> -->
               <li class="nav-item">
-                <a href="{{route('meeting.datatable')}}" class="nav-link">
+                <a href="{{route('promotorMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Meeting</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('viewAdminMeeting')}}" class="nav-link">
+                <a href="{{route('promotorViewMeeting')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View Pending Meeting</p>
                 </a>
