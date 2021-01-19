@@ -347,6 +347,164 @@
             </ul>
           </li>
         @endif
+
+        @if(auth('system_admin')->user()->role=='promotor')
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+               <li class="nav-item has-treeview menu-open">
+            <a href="{{route('dashboard')}}" class="nav-link active" style="background-color: #28A745;">
+              <i class="nav-icon fas fa-tachometer-alt text-white   "></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+          
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+            <i class="nav-icon far fa-calendar-alt text-green"></i>
+              <p>
+                 Meetings
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+            <li class="nav-item">
+                <a href="{{route('promotorMeeting')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Meeting</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('meeting.schudule')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Meeting schudules <span class="badge badge-info right">2</span></p>
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="{{route('show.form')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Add Meeting</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('adminViewMeeting')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>View Meeting</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('viewPreviousMeetingAdmin')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>View Previous Meeting</p>
+                </a>
+              </li>
+              <!-- <li class="nav-item">
+                <a href="{{route('searchPreviousMeeting')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Search Previous Meeting</p>
+                </a>
+              </li> -->
+              <li class="nav-item">
+                <a href="{{route('meeting.datatable')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Meeting</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('viewAdminMeeting')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>View Pending Meeting</p>
+                </a>
+              </li>
+              <!-- <li class="nav-item">
+                <a href="{{route('searchPendingMeeting')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Search Pending Meeting</p>
+                </a>
+              </li> -->
+            </ul>
+          </li>
+
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-user-tie text-green"></i>
+              <p>
+                All Users
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview" style="display: none;">
+              <li class="nav-item">
+                <a href="{{route('user')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Add User</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('user.datatable')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>See All Users</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-credit-card text-green"></i>
+              <p>
+                Equipment
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview" style="display: none;">
+              <!-- <li class="nav-item">
+                <a href="pages/UI/general.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Create New Meeting</p>
+                </a>
+              </li> -->
+              <li class="nav-item">
+                <a href="{{route('eqiupments.datatable')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>All Equipment</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('searchEquipment')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Search Equipment</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-columns text-green"></i>
+              <p>
+                 physical locations
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview" style="display: none;">
+            <li class="nav-item">
+                <a href="{{route('physicalLocation')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Location Information</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('searchPhylocation')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Search Physical Location</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        @endif
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
